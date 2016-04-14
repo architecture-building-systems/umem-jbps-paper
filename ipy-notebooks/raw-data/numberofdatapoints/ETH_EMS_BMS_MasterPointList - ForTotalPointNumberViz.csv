@@ -1,0 +1,1165 @@
+,,,CategoryTag,TypeTag,EnglishTag,Adjusted_EnglishTag,BuildTag
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HC0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HC1
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HC2
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HC3
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HC4
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HC5
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HCI
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HEZ
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HEZ
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HEZ
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HIL
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPF
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPF
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPF
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPI
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPI
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPI
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPI
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPI
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPI
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPI
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPI
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPI
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPK
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPM
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPM
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPM
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPP
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPR
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPT
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPT
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MBW,Durchfluss,Brauchwarmwasser Verbrauch,Domestic hot water consumption,Domestic hot water,HPT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC0
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC1
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC2
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC3
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC4
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HC5
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HCI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HCI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HDB
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HDB
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HDB
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HEZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIF
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIF
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIF
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIF
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIF
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIF
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIG
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIL
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIL
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIL
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIL
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIL
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIL
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIL
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIL
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIP
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIR
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIT
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIV
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HIZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HKK
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPF
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPF
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPF
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPG
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPG
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPG
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPG
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPG
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPH
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPH
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPH
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPH
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPI
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPI
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPK
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPK
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPK
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPM
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPM
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPM
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPM
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPP
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPP
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPP
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPR
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPR
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPR
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPR
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPR
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPR
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPR
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPR
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPR
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPR
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPT
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPV
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPW
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPZ
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HPZ
+,QW,MEL,Energie,Elektroverbrauch,Electric consumption,Electricity,HXE
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC0
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC0
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC0
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC1
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC2
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC3
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC4
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC4
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC4
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC5
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HC5
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HCI
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HEZ
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HEZ
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HEZ
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HEZ
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HIT
+,VP,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HIT
+,V,MGA,Durchfluss,Stadtgasverbrauch,Town gas consumption,City gas,HPM
+,V,MGW,Durchfluss,Grauwasserverbrauch,Grey water consumption,Grey water,HC1
+,V,MGW,Durchfluss,Grauwasserverbrauch,Grey water consumption,Grey water,HC1
+,V,MGW,Durchfluss,Grauwasserverbrauch,Grey water consumption,Grey water,HC1
+,V,MGW,Durchfluss,Grauwasserverbrauch,Grey water consumption,Grey water,HC1
+,V,MGW,Durchfluss,Grauwasserverbrauch,Grey water consumption,Grey water,HC1
+,V,MGW,Durchfluss,Grauwasserverbrauch,Grey water consumption,Grey water,HCI
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC0
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC0
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC1
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC1
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC2
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC3
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC3
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC3
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HC4
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HC5
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HCI
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HDB
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HDB
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HDB
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HDB
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HDB
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HEZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIF
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIF
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIG
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIL
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIL
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIP
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIP
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIP
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HIP
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIQ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIQ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIQ
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HIQ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIR
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIR
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIR
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HIR
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,,,,,,,
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HIT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIV
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HIZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HKK
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HKK
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HKK
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HKK
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPF
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPF
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPH
+,,,,,,,
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPH
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPI
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPI
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPK
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPK
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPK
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPK
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPK
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPK
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPK
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPM
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPM
+,,,,,,,
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPM
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPM
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPM
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPM
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPM
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPM
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPM
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,,,,,,,
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,,,,,,,
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPP
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPR
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPR
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPR
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPR
+,,,,,,,
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPR
+,,,,,,,
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPR
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPR
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPS
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPS
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPS
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPS
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPS
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,V,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPT
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPV
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,TR,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,TV,MHE,Temperatur,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,VP,MHE,Durchfluss,Wärmeverbrauch,Heat consumption,Heating energy,HPZ
+,QW,MHE,Energie,Wärmeverbrauch,Heat consumption,Heating energy,HXE
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC0
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC0
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC0
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC0
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC1
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC1
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC2
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC3
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC3
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC3
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC4
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC4
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC4
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC4
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC4
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC4
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC5
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC5
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HC5
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HCI
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HCI
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HDB
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HDB
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HDB
+,,,,,,,
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HDB
+,,,,,,,
+,VP,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HDB
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,,,,,,,
+,,,,,,,
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,,,,,,,
+,,,,,,,
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,,,,,,,
+,,,,,,,
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,,,,,,,
+,,,,,,,
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,,,,,,,
+,,,,,,,
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HEZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIF
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIF
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIF
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIL
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIL
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIL
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIL
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIL
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,,,,,,,
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,,,,,,,
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,V,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,VP,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HIT
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPF
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPF
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPF
+,VP,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPF
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPH
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPH
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPH
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPI
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPK
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPK
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPK
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPM
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPM
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPP
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPP
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPP
+,VP,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPP
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPR
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPR
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPR
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPR
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPT
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPT
+,,,,,,,
+,,,,,,,
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPT
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPV
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,QW,MKA,Energie,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,,,,,,,
+,,,,,,,
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,TR,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,TV,MKA,Temperatur,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,VP,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,VP,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,VP,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,VP,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,VP,MKA,Durchfluss,Kälteverbrauch,Cooling energy consumption,Cooling energy,HPZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HC0
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HC0
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HC0
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HC0
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HC1
+,,,,,,,
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HC1
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HC2
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HC3
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HC4
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HC5
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HCI
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HDB
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HDB
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HDB
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,VP,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,VP,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,VP,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,VP,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HEZ
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIF
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIF
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIG
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIL
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIL
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIL
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIL
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIP
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIQ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIR
+,,,,,,,
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIT
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIV
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HIZ
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HKK
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPF
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPH
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPI
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPK
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPK
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPK
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPM
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPP
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPP
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPR
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPR
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPR
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPS
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPT
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPV
+,V,MSW,Durchfluss,Stadtwasserverbrauch,Municipal water consumption,Water consumption,HPZ
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HC1
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HC1
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HC2
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HC3
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HC4
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HC5
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HCI
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,V,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,VP,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,VP,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,VP,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,VP,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,VP,MTE,Durchfluss,Verbrauch Teilentsalztes Wasser,Partially water consumption,Water consumption,HEZ
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC0
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC1
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC1
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC1
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC2
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC2
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC2
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC3
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC3
+,,,,,,,
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC3
+,,,,,,,
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC3
+,,,,,,,
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC4
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC4
+,,,,,,,
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC4
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC4
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC5
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC5
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC5
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HC5
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HCI
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HDB
+,,,,,,,
+,,,,,,,
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HDB
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HDB
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HEZ
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HEZ
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HEZ
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HEZ
+,VP,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HEZ
+,VP,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HEZ
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HIF
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HIF
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HIF
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HIL
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HIL
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HIL
+,,,,,,,
+,,,,,,,
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HIT
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HIT
+,VP,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HIT
+,VP,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HIT
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPF
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPI
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPK
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPK
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPK
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPM
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPM
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPM
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPP
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPR
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPR
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPR
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPT
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPT
+,,,,,,,
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPT
+,V,MVE,Durchfluss,Verbrauch Vollentsalztes Wasser,Consumption demineralized water,Water consumption,HPT

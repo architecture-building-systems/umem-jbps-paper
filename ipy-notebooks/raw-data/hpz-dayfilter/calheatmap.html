@@ -1,0 +1,36 @@
+<head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="cal-heatmap-master/cal-heatmap.min.js"></script>
+<link rel="stylesheet" href="cal-heatmap-master/cal-heatmap.css" />
+
+<!-- Doesn't work:
+ -->
+ <!--<style type="text/css">
+    .q5{fill:#ccb974}
+    .q4{fill:#8172b2}
+    .q3{fill:#c44e52}
+    .q2{fill:#55a868}
+    .q1{fill:#4c72b0}
+</style>-->
+
+</head>
+
+<body>
+<div id="cal-heatmap"></div>
+<script type="text/javascript">
+	var cal = new CalHeatMap();
+	cal.init({
+		domain: "month",
+		subDomain: "day",
+		cellSize: 8,
+		data: "hpz_cal_heatmap.json",
+		start: new Date(2013, 6, 1),
+		legend: [1, 2, 3, 4],
+		displayLegend: false,
+		// legendColors: ["#4c72b0","#55a868","#c44e52","#8172b2","#ccb974"],
+		tooltip: true,
+		range: 6
+	});
+</script>
+</body>
