@@ -9,6 +9,7 @@
 \usepackage{color}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
+\usepackage{lineno}
 
 \theoremstyle{plain}
 \newtheorem{theorem}{Theorem}[section]
@@ -105,6 +106,7 @@ Building-scale simulation, Calibrated energy models, CitySim, Co-simulation, Ene
 % \hspace*{24pt}       website \\
 % \hspace*{10pt}{9.2}  Via e-mail\\ }}}
 
+\linenumbers
 
 \section{Introduction}
 
@@ -153,7 +155,7 @@ floor types as well as window and door families. Wherever possible, the tool use
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.7]{figures/UMEM_Workflow}
-\caption{Overview diagram of the coupling process including tools and outputs}
+\caption{Overview diagram of the coupling process including tools and outputs (adapted from \cite{thomas2014multiscale})}
 \label{fig:OverallWorkflowProcess}
 \end{figure}
 
@@ -288,7 +290,7 @@ The focus of the co-simulation process is that the performance of a targeted bui
 \end{figure}
 
 \subsection{Model development}
-In order to perform a co-simulation of the targeted buildings, initially a CitySim model of the campus is developed as seen in Figure \ref{fig:campuscitysim}. 
+In order to perform a co-simulation of the targeted buildings, initially a CitySim model of the campus is developed. Through the workflow automation process, this geometry was converted into an EnergyPlus input file as seen in Figure \ref{fig:HPIcampus}. 
 % An existing EnergyPlus model is used for the HPZ building and simplified single-zone EnergyPlus models are extracted from the CitySim geometry for the other three targeted buildings.
 
 \begin{figure}[H]
@@ -305,8 +307,43 @@ In order to perform a co-simulation of the targeted buildings, initially a CityS
 % \label{fig:campuscitysim}
 % \end{figure}
 
-\subsection{Measured data collection and processing}
-% Energy data from each of the targeted buildings is collected and analyzed in the context of the simplified calibration procedures. The measured datasets are screened and aggregated into typical usage profiles to be used for the lighting, plug-loads, and HVAC equipment availability schedules and power densities. Figures \ref{fig:hpz_profiles}-\ref{fig:hit_profiles} illustrate the aggregation examples of the heating energy from the HPZ building and the electrical energy from HPK, HPI, and HIT. These profiles were created through a filtering and clustering process known as \emph{DayFilter} \cite{Miller:2015kr}. These profiles are used to set the availability schedules as inputs into the EnergyPlus simulation to emulate the way occupants inhabit the building and how the building management system (BMS) controls the lighting and HVAC systems. This approach is compared to the practice of interviews and site visits to determine such input parameters.
+\subsection{Measured data collection and calibration}
+
+Energy data from the HPI building was collected and analyzed in the context of the simplified calibration procedures. The measured datasets are screened and aggregated into typical usage profiles to be used for the lighting, plug-loads, and HVAC equipment availability schedules and power densities. Figure \ref{fig:hpi_elec_profiles} illustrates the aggregation examples of electrical energy for the HPI building. This profile was created through a filtering and clustering process known as \emph{DayFilter} \cite{Miller:2015kr}. This profile is used to set the availability schedules as inputs into the EnergyPlus simulation to emulate the way occupants inhabit the building and how the building management system (BMS) controls the lighting and HVAC systems. This approach is compared to the practice of interviews and site visits to determine such input parameters.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{figures/HPI_combinedclusterandcal_4}
+\caption{HPI Electrical Energy Typical Profiles}
+\label{fig:hpi_elec_profiles}
+\end{figure}
+
+The measured and simulated data from both the co-simulation and EnergyPlus solo simulations is shown in Figure \ref{fig:hpi_measvssim}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{figures/HPI_MeasvsSim}
+\caption{HPI Measured vs. Co-Simulation and EnergyPlus Solo for Heating and Cooling Seasons}
+\label{fig:hpi_measvssim}
+\end{figure}
+
+\subsection{EnergyPlus co-simulation results}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{figures/HPI_EnergyPlus_Heating}
+\caption{HPI Co-Simulation vs. EnergyPlus Solo for Heating}
+\label{fig:hpi_energyplusheating}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{figures/HPI_EnergyPlus_Cooling}
+\caption{HPI Co-Simulation vs. EnergyPlus Solo for Cooling}
+\label{fig:hpi_energypluscooling}
+\end{figure}
+
+% \ref{fig:hpz_profiles}-\ref{fig:hit_profiles}
 
 % \begin{figure}
 % \centering
@@ -322,12 +359,6 @@ In order to perform a co-simulation of the targeted buildings, initially a CityS
 % \label{fig:hpk_profiles}
 % \end{figure}
 
-% \begin{figure}
-% \centering
-% \includegraphics[scale=0.45]{figures/HPI_combinedclusterandcal_4}
-% \caption{HPI Electrical Energy Typical Profiles}
-% \label{fig:hpi_profiles}
-% \end{figure}
 
 % \begin{figure}
 % \centering
@@ -366,7 +397,54 @@ As a summary, three models are compared: a detailed EnergyPlus model, a simplifi
 % \section{Results}
 % {\color{red}Here we show all of the data of the comparison between the simulation outputs and the measured data from the campus}
 
-\section{Results}
+% \section{Results}
+\subsection{Comparison of EnergyPlus and CitySim}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{figures/QN_Cooling}
+\caption{Quartier Nord CitySim vs. EnergyPlus Solo for Cooling}
+\label{fig:qn_eplusvscitysim_cooling}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{figures/QN_Heating.pdf}
+\caption{Quartier Nord CitySim vs. EnergyPlus Solo for Heating}
+\label{fig:qn_eplusvscitysim_heating}
+\end{figure}
+
+\subsection{EnergyPlus Co-simulation results}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{figures/QN_EnergyPlus_Cooling}
+\caption{Quartier Nord EnergyPlus Co-Simulation vs. Solo for Cooling}
+\label{fig:qn_eplus_cosimvssolo_cooling}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{figures/QN_EnergyPlus_Heating}
+\caption{Quartier Nord EnergyPlus Co-Simulation vs. Solo for Heating}
+\label{fig:qn_eplus_cosimvssolo_heating}
+\end{figure}
+
+\subsection{CitySim Co-simulation results}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{figures/QN_CitySim_Cooling}
+\caption{Quartier Nord CitySim Co-Simulation vs. Solo for Cooling}
+\label{fig:qn_citysim_cosimvssolo_cooling}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{figures/QN_CitySim_Heating}
+\caption{Quartier Nord CitySim Co-Simulation vs. Solo for Heating}
+\label{fig:qn_citysim_cosimvssolo_heating}
+\end{figure}
 
 
 \section{Conclusion}
