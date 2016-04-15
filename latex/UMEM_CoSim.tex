@@ -139,7 +139,7 @@ This paper describes the achievement of several objectives:
 The first two objectives have been demonstrated in a simplified context in previous literature \citep{thomas2014multiscale,Miller:2015vk}. The novelty of the current publication is an extension to this research through the modelling and co-simulation of real-world case studies. The third objective is completely novel in that no previous study has compared the results of a building and urban-scale co-simulation procedure to measured data from a real-world campus. 
 
 \subsection{Previous multi-scale coupling studies}
-Previous attempts of information exchange have been implemented between simulation engines at various scales. Much of the initial co-simulation work is at the subsystem and building-scales. Previous studies have analyzed strong and loose coupling of engines at this scale \citep{Trcka:2010cr,Wetter:2011kh}. At the building and urban-scale, EnergyPlus and the TEP Urban Canopy Model program were coupled in order to quantify the influences of urban localized weather effects on whole building simulation \citep{Bueno:2011hi}. EnergyPlus has been coupled with ENVI-met, a micro-climate computational fluid dynamics (CFD) program \citep{Yang:2012cr}. 
+Previous attempts of information exchange have been implemented between simulation engines at various scales. Much of the initial co-simulation work is at the subsystem and building-scales. Previous studies have analyzed strong and loose coupling of engines at this scale \citep{Trcka:2010cr,Wetter:2011kh}. Coupling of building-scale simulation with urban-scale computational fluid dynamics (CFD) is attempted for modelling natural ventilation \citep{Zhang:2013vx} and to improve energy prediction \citep{Bouyer:2011eha}. EnergyPlus has been coupled with ENVI-met, a micro-climate computational fluid dynamics (CFD) program \citep{Yang:2012cr}. It was also coupled with simplified lumped parameter models in order to facilitate comparison with measured sensor data \citep{Martin:2015fj}. EnergyPlus and the TEP Urban Canopy Model program were coupled in order to quantify the influences of urban localized weather effects on whole building simulation \citep{Bueno:2011hi}. 
 % \subsection{Urban scale performance simulation}
 
 \section{Methodology}\label{Methodology}
@@ -252,22 +252,27 @@ In the coupled simulation, EnergyPlus uses the CitySim supplied equivalent $h_{r
 \end{figure}
 
 
-\subsection{Co-simulation simplified calibration}
-In the first case study, one aspect of this analysis is the comparison of actual measured performance of a buildings on campus with the simulation results of the co-simulation. A simplified calibration procedure is adapted from previous research to compare the measured heating and cooling data available on campus with various simulation scenarios \citep{Samuelson:2015jg}. This calibration procedure was utilized in the performance reconciliation of 18 buildings that were built according to the LEED Canada protocol and were under review of actualized performance. This protocol is unique in its analysis process to uncover design model deficiencies in a step-wise manner, utilizing the most easily accessible knowledge first and working towards equilibrium between measured and simulated. An appropriate balance between effort of implementation and value generated through the calibration process. The following steps are the general procedure applied to the targeted buildings:
+\subsection{Simplified calibration}
+In the first case study, one aspect of this analysis is the comparison of actual measured performance of a buildings on campus with the simulation results of the co-simulation. A simplified calibration procedure is adapted from previous research to compare the measured heating and cooling data available on campus with various simulation scenarios \citep{Samuelson:2015jg}. This calibration procedure was utilized in the performance reconciliation of 18 buildings that were built according to the LEED Canada protocol and were under review of actualized performance. This protocol is unique in its analysis process to uncover design model deficiencies in a step-wise manner, utilizing the most easily accessible knowledge first and working towards equilibrium between measured and simulated. An appropriate balance between effort of implementation and value generated through the calibration process. 
 
-\begin{enumerate}
-  \item Using the local weather conditions for the simulation period
-  \item Update simulation based on custom lighting schedules and power densities extracted from the measured data
-  \item Update simulation based on custom plug load schedules and power densities extracted from the measured data
-  \item Account for \emph{unregulated} building loads such as experimental equipment and process loads
-\end{enumerate}
+% The following steps are the general procedure applied to the targeted buildings:
+
+% \begin{enumerate}
+%   \item Using the local weather conditions for the simulation period
+%   \item Update simulation based on custom lighting schedules and power densities extracted from the measured data
+%   \item Update simulation based on custom plug load schedules and power densities extracted from the measured data
+%   \item Account for \emph{unregulated} building loads such as experimental equipment and process loads
+% \end{enumerate}
  
 \section{Implementation}\label{Implementation}
+The co-simulation process is implemented on two case studies in Switzerland. The first is the ETH Z\"urich Hoenggerberg campus in Z\"urich, Switzerland. The focus of this case study is to compare the impact of the information exchange through co-simulation within the EnergyPlus engine. The intent on this campus was to develop techniques for retrofit analysis using EnergyPlus. The targeted building on this campus is the HPI Building. Raw measured data is available for many of the buildings on campus, thus a simplified calibration procedure is used to reconcile the simulation results.\\
 
+The second case study is the EPFL campus in Lausanne, Switzerland. The targeted building in this case was the Quartier Nord complex. The focus of this study was to compare the output results of both CitySim and EnergyPlus. Reliable measured data for calibration is not currently available for this building.
 
-\subsection{Campus case study 1: HPI Building}
+\subsection{Campus case study 1: ETHZ Hoenggerberg Campus}
 % {\color{red}This section will describe the ETH Hoenggerberg case study}
-The simulation and calibration process is implemented on a campus case study located in Z\"urich, Switzerland. The campus includes 32 higher education buildings with spaces allocated to laboratories, office space, lecture halls, cafeterias, data centers and other types of similar spaces. The campus has a centralized energy management system (EMS) that contains 807 energy and water measurement points from heating, cooling, electricity, city gas, domestic hot water, grey water, and general water consumption. 
+%The simulation and calibration process is implemented on a campus case study located in Z\"urich, Switzerland. 
+The ETH Z\"urich Hoenggerberg campus includes 32 higher education buildings with spaces allocated to laboratories, office space, lecture halls, cafeterias, data centers and other types of similar spaces. The campus has a centralized energy management system (EMS) that contains 807 energy and water measurement points from heating, cooling, electricity, city gas, domestic hot water, grey water, and general water consumption. 
 
 %Figure \ref{fig:pointgraph} illustrates the breakdown of these measurement system data points amongst the campus buildings.
 
@@ -368,7 +373,7 @@ The measured and simulated data from both the co-simulation and EnergyPlus solo 
 % \label{fig:hit_profiles}
 % \end{figure}
 
-\subsection{Campus case study 2: CitySim simulation vs. co-simulation}
+\subsection{Campus case study 2: EPFL Quartier Nord}
 Quartier Nord is a whole new quarter of the École Polytechnique Fédérale de Lausanne (EPFL) campus located at its northwest corner. This complex includes a Convention Centre with an auditorium with a maximum capacity of 3000 (seated) people, housing for 516 students, retail and service areas and a hotel. As a public space, this ensemble is organized around a main plaza (see Figure \ref{fig:quartier_nord_1}).
 
 \begin{figure}[H]
@@ -392,8 +397,9 @@ Considering the lack of detailed information about the building, a so-called det
 \label{fig:model_yang}
 \end{figure}
 
-The corresponding CitySim model was created by exporting a DXF file from EnergyPlus, and importing it into the Graphical User Interface of CitySim. Physical caracteristics of the building were added to complete the CitySim model. Finally, the same script as described in section XXX was used to export the model from CitySim to EnergyPlus, giving a simplified EnergyPlus model.\\
-As a summary, three models are compared: a detailed EnergyPlus model, a simplified CitySim model and a simplified EnergyPlus model. In addition to what a coupled simplified CitySim and EnergyPlus model is realised and its results analysed with respect to the other three models. 
+The corresponding CitySim model was created by exporting a DXF file from EnergyPlus, and importing it into the Graphical User Interface of CitySim. Physical caracteristics of the building were added to complete the CitySim model. Finally, the same script as described in Section \ref{Methodology} was used to export the model from CitySim to EnergyPlus, giving a simplified EnergyPlus model.\\
+
+% As a summary, three models are compared: a detailed EnergyPlus model, a simplified CitySim model and a simplified EnergyPlus model. In addition to what a coupled simplified CitySim and EnergyPlus model is realised and its results analysed with respect to the other three models. 
 
 % \section{Results}
 % {\color{red}Here we show all of the data of the comparison between the simulation outputs and the measured data from the campus}
