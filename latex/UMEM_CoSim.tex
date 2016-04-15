@@ -39,7 +39,7 @@ and Arno Schlueter\textsuperscript{a}\\
 \vspace{6pt}
 \textsuperscript{a}{\em Architecture and Building Systems (A/S), Institute of Technology in Architecture (ITA), ETH Z\"urich, Z\"urich, Switzerland};\\
 \textsuperscript{b}{\em Solar Energy and Building Physics Laboratory (LESO-PB), Ecole Polytechnique F\'ed\'erale de Lausanne (EPFL), Lausanne, Switzerland}
-\received{v0.1 released January 2015}
+\received{Submission for review on April 30, 2016} %TARGETED!
 }
 
 \maketitle
@@ -133,10 +133,10 @@ This paper describes the achievement of several objectives:
 \begin{enumerate}
   \item Automation of the process of simultaneous meta-data extraction from a building information model (BIM) for the creation of both building and urban-scale performance models for a real-world campus of buildings
   \item Co-simulate the urban and building scale models through concurrent information exchange
-  \item Implement a simplified calibration procedure based on reconciling the co-simulation output results for a selected subset of buildings that have adequate measured energy performance data from the campus energy information system (EIS) 
+  \item Implement a simplified calibration procedure based on reconciling the co-simulation output results for a target building that have adequate measured energy performance data from the campus energy information system (EIS) 
 \end{enumerate}
 
-The first two objectives have been demonstrated in a simplified context in previous literature \citep{thomas2014multiscale,Miller:2015vk}. The novelty of the current publication is an extension to this research through the modelling and co-simulation of real-world case studies. The third objective is completely novel in that no previous study has compared the results of a building and urban-scale co-simulation procedure to measured data from a real-world campus. 
+The first two objectives have been demonstrated in a simplified context in previous literature \citep{thomas2014multiscale,Miller:2015vk}. The innovation in the current publication is an extension to this research through the modelling and co-simulation of real-world case studies. With respect to the third contribution, to the best of the author's knowledge, no previous study has compared the results of a building and urban-scale co-simulation procedure to measured data from a real-world campus. 
 
 \subsection{Previous multi-scale coupling studies}
 Previous attempts of information exchange have been implemented between simulation engines at various scales. Much of the initial co-simulation work is at the subsystem and building-scales. Previous studies have analyzed strong and loose coupling of engines at this scale \citep{Trcka:2010cr,Wetter:2011kh}. Coupling of building-scale simulation with urban-scale computational fluid dynamics (CFD) is attempted for modelling natural ventilation \citep{Zhang:2013vx} and to improve energy prediction \citep{Bouyer:2011eha}. EnergyPlus has been coupled with ENVI-met, a micro-climate computational fluid dynamics (CFD) program \citep{Yang:2012cr}. It was also coupled with simplified lumped parameter models in order to facilitate comparison with measured sensor data \citep{Martin:2015fj}. EnergyPlus and the TEP Urban Canopy Model program were coupled in order to quantify the influences of urban localized weather effects on whole building simulation \citep{Bueno:2011hi}. 
@@ -315,7 +315,7 @@ In order to perform a co-simulation of the targeted buildings, initially a CityS
 
 \subsection{Measured data collection and calibration}
 
-Energy data from the HPI building was collected and analyzed in the context of the simplified calibration procedures. The measured datasets are screened and aggregated into typical usage profiles to be used for the lighting, plug-loads, and HVAC equipment availability schedules and power densities. Figure \ref{fig:hpi_elec_profiles} illustrates the aggregation examples of electrical energy for the HPI building. This profile was created through a filtering and clustering process known as \emph{DayFilter} \cite{Miller:2015kr}. This profile is used to set the availability schedules as inputs into the EnergyPlus simulation to emulate the way occupants inhabit the building and how the building management system (BMS) controls the lighting and HVAC systems. This approach is compared to the practice of interviews and site visits to determine such input parameters.
+Energy data from the HPI building was collected and analyzed in the context of the simplified calibration procedures. The measured datasets are screened and aggregated into typical usage profiles to be used for the lighting, plug-loads, and HVAC equipment availability schedules and power densities. Figure \ref{fig:hpi_elec_profiles} illustrates the aggregation examples of electrical energy for the HPI building. This profile was created through a filtering and clustering process known as \emph{DayFilter} \citep{Miller:2015kr}. This profile is used to set the availability schedules as inputs into the EnergyPlus simulation to emulate the way occupants inhabit the building and how the building management system (BMS) controls the lighting and HVAC systems. This approach is compared to the practice of interviews and site visits to determine such input parameters.
 
 \begin{figure}[H]
 \centering
@@ -324,7 +324,7 @@ Energy data from the HPI building was collected and analyzed in the context of t
 \label{fig:hpi_elec_profiles}
 \end{figure}
 
-The measured and simulated data from both the co-simulation and EnergyPlus solo simulations is shown in Figure \ref{fig:hpi_measvssim}.
+The measured and simulated data from both the co-simulation and EnergyPlus solo simulation was compared in order to create a realistic scenario for comparison. The calibration process was undertaken through a series of steps such as including local weather conditions for the simulation period and adding custom lighting schedules and power densities extracted from the measured data. The models were calibrated to the summer season (May-September) for cooling and the winter season (Jan-April and October to December) for heating. This approach was taken as the data quality for the measurements were deemed most accurate during the appropriate seasons. Figure \ref{fig:hpi_measvssim} illustrates a comparison of the measured data with the simulations after the tuning process. Daily data was used to calculated goodness of fit to determine calibration success.
 
 \begin{figure}[H]
 \centering
@@ -335,12 +335,16 @@ The measured and simulated data from both the co-simulation and EnergyPlus solo 
 
 \subsection{EnergyPlus co-simulation results}
 
+After calibration, a comparison of co-simulation and solo EnergyPlus simulations are made. Figure \ref{fig:hpi_energyplusheating} illustates the difference in predicted heating energy consumption across the test year. A consistent offset exists across the time frame of days in January, the peak of the heating season. A more varied discrepancy across the heating months is noticed resulting and overall increase of heating prediction of 4.8\% due to co-simulation. 
+
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.55]{figures/HPI_EnergyPlus_Heating}
 \caption{HPI Co-Simulation vs. EnergyPlus Solo for Heating}
 \label{fig:hpi_energyplusheating}
 \end{figure}
+
+For cooling, a more dramatic discrepancy can be seen between co-simulation and solo EnergyPlus. A 20.2\% decrease in predicted cooling energy is observed.
 
 \begin{figure}[H]
 \centering
@@ -407,12 +411,16 @@ The corresponding CitySim model was created by exporting a DXF file from EnergyP
 % \section{Results}
 \subsection{Comparison of EnergyPlus and CitySim}
 
+Both the CitySim and EnergyPlus engines are utilized in this case study. The first comparison to observe are the differences between the two engines when focused on the Quartier Nord building. 
+
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.55]{figures/QN_Cooling}
 \caption{Quartier Nord CitySim vs. EnergyPlus Solo for Cooling}
 \label{fig:qn_eplusvscitysim_cooling}
 \end{figure}
+
+When simulated in isolation, the CitySim engine predicts a 28.8\% higher heating load than EnergyPlus with the model inputs aligned as closely as possible. Use of the co-simulation, brings the engines to within 5.4\%. Figure \ref{fig:qn_eplusvscitysim_heating} illustrates these differences.
 
 \begin{figure}[H]
 \centering
@@ -421,7 +429,9 @@ The corresponding CitySim model was created by exporting a DXF file from EnergyP
 \label{fig:qn_eplusvscitysim_heating}
 \end{figure}
 
-\subsection{EnergyPlus Co-simulation results}
+\subsection{EnergyPlus co-simulation results}
+
+When focusing on solely on EnergyPlus, a 7.5\% decrease in cooling energy is observed.
 
 \begin{figure}[H]
 \centering
@@ -430,6 +440,9 @@ The corresponding CitySim model was created by exporting a DXF file from EnergyP
 \label{fig:qn_eplus_cosimvssolo_cooling}
 \end{figure}
 
+A 2.8\% increase in heating energy is observed.
+
+
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.55]{figures/QN_EnergyPlus_Heating}
@@ -437,7 +450,10 @@ The corresponding CitySim model was created by exporting a DXF file from EnergyP
 \label{fig:qn_eplus_cosimvssolo_heating}
 \end{figure}
 
-\subsection{CitySim Co-simulation results}
+\subsection{CitySim co-simulation results}
+
+When focusing on solely on CitySim, a X\% decrease in cooling energy is observed.
+
 
 \begin{figure}[H]
 \centering
@@ -445,6 +461,9 @@ The corresponding CitySim model was created by exporting a DXF file from EnergyP
 \caption{Quartier Nord CitySim Co-Simulation vs. Solo for Cooling}
 \label{fig:qn_citysim_cosimvssolo_cooling}
 \end{figure}
+
+A 30.8\% decrease in heating energy is observed.
+
 
 \begin{figure}[H]
 \centering
@@ -455,6 +474,7 @@ The corresponding CitySim model was created by exporting a DXF file from EnergyP
 
 
 \section{Conclusion}
+The ability to couple and leverage the best aspects of multiple simulation engines can enhance the modeling of large scale urban agglomerations. This paper has outlined one such scenario in which the building-focused EnergyPlus simulation engine is coupled and co-simulated with the urban-scale CitySim engine. This process is implemented through a fully automated work flow process that extract geometry information at the urban-scale, creates the necessary input information, executes each engine with information exchange at each time step of targeted variables, and accumulates the results for analysis. The process has been implemented on simpflied theoretical scenarios in the past and the key innovation with this work is in implementation on actual case study campuses and targeted buildings. More reliable results of the magnitude of differences between the simulation techniques can be extracted from this scenario.
 
 \subsection{Acknowledgements}
 
