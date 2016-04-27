@@ -51,22 +51,24 @@ and Arno Schlueter\textsuperscript{a}\\
 \begin{abstract}
     This paper describes the co-simulation process of the building and urban
     scale models of two campuses of higher education buildings in Switzerland.
-    The campuses are modeled at both the building scale using the EnergyPlus
-    simulation engine and at the urban scale using the CitySim engine. A co-
+    The campuses are modeled at both the building level, using the EnergyPlus
+    simulation engine, and at the urban scale using the CitySim engine. A co-
     simulation framework is used to execute simulations from both engines
     concurrently with an exchange of information to leverage the various
     strengths of each. In the first case study, on-site weather and measured
-    performance data is then compared to the output from two modeling
+    performance data are then compared to the output from two modeling
     scenarios: building-scale simulation using EnergyPlus and co-simulation of
     the engines. A partial calibration process is implemented to reconcile the
     simulations with the measured data of a targeted office building on
     campus. In the second case study, the co-simulation results are compared
     to the both the CitySim simulation and EnergyPlus engines. The results
-    show that {\color{red}insert results here}. A discussion is included of
-    the challenges encountered with the urban scale calibration and the
-    strengths and weaknesses of the developed process.
+    show that coupling of EnergyPlus with CitySim resulted in a -20\% and
+    -7.5\% impact on cooling consumption and a +2.8\% and +4.8\% impact on
+    heating consumption. Challenges encountered with the urban scale
+    calibration and the strengths and weaknesses of the developed process are
+    discussed.
     % \noteDT{Clayton, can you
-    % get your editor to do hard linewrapping? all your paragraphs are a single
+    % get your editor to do hard line wrapping? all your paragraphs are a single
     % line which breaks the diff model of GitHub and makes editing in VIM super
     % hard...}
 \end{abstract}
@@ -135,11 +137,11 @@ Building-scale simulation, Calibrated energy models, CitySim, Co-simulation, Ene
 
 Urban scale building performance simulation is a process that empowers the
 analysis and optimization of cities. Urban populations are growing around the
-world at an unprecedented rate. A shift from urban to rural is underway and
-2.5 billion people are expected to join urban centers throughout the world
+world at an unprecedented rate. A transition from urban to rural is underway and
+2.5 billion people are expected to join cities throughout the world
 \citep{UnitedNations:2014vn}. Expansions of entire districts and even cities
 is not an uncommon phenomenon, especially in East Asia and Africa. Urban scale
-modeling is in the midst of a strong focus within the research community with
+modeling is in the midst of an intense focus on the research community with
 six key areas of practice: technology design, building design, urban climate,
 systems design, policy assessment, and land use and transportation
 \citep{Keirstead:2012ct}. The ability to simulate the interaction between
@@ -155,8 +157,8 @@ models and their interdependent relationship with their urban climate
 \citep{Robinson:2009tm}. CitySim includes building thermal, urban radiation,
 occupant behavior, and plant/equipment models integrated as a single
 simulation engine. CitySim simulates multiple buildings up to city scale using
-simplified models in order to achieve a good compromise between modeling
-accuracy, computational overheads and data availability. Each building's
+simplified models to achieve a good compromise between modeling
+accuracy, computational overheads, and data availability. Each building's
 thermal behavior is based on an electrical analogy using a two node resistor-
 capacitor network. The internal lighting, people, and miscellaneous loads are
 modeled using a simplified occupancy-based approximation. The heating,
@@ -164,7 +166,7 @@ ventilation, and air-conditioning (HVAC) systems are modeled using a single
 equation that approximates the total mass flow rate required to meet the
 sensible and latent loads of each building as a whole. Each of these
 simplifying approximations empowers the urban-scale simulation to have
-reasonable execution times with respect to the number of buildings being
+reasonable execution times on the number of buildings being
 simulated.
 
 Building performance simulation is a mature domain of research relative to
@@ -185,24 +187,23 @@ modeled in detail at the building level.
 Both building and urban-scale simulation domains have rightfully chosen
 boundary conditions that reflect their key goals while seeking to minimize the
 input parameters necessary and run-times of the engines themselves. This focus
-results in certain deficiencies with respect to modeling various phenomenon.
+results in certain deficiencies concerning modeling various phenomenon.
 For example, urban scale simulation highly simplifies the building systems and
-internal load models, thus making retrofit analysis at the systems level
+internal load models, thus making a retrofit analysis at the systems level
 difficult. And whole building simulation in EnergyPlus neglects many of the
 various contextual consideration of the urban environment such as long wave
 radiation exchange with adjacent surfaces and localized urban weather effects
 \citep{Lawrie:2001vf}.%\noteDT{ref?}
 
-In order to address the deficiencies of the individual engines, the current
+To address the deficiencies of the individual engines, the current
 effort seeks to couple building and urban scale simulation. The research in
-this paper is part of an\noteDT{s/an/a/} larger coupling effort in which
-various engines are connected and co-simulated to create a more comprehensive
-analysis of the urban scale \citep{Dorer:2013vt,Allegrini:2012kx}. The target
-is the computational interface between the building energy model, using
-EnergyPlus, and the urban energy model using CitySim. An overview of the
-larger scope is shown in Figure \ref{fig:UMEM} and the context of the coupling
-task is shown as the interface between the City Energy Simulation (CES) model
-and the Building Energy Simulation (BES) model.
+this paper is part of a larger coupling effort in which various engines are
+connected and co-simulated to create a more comprehensive analysis of the
+urban scale \citep{Dorer:2013vt,Allegrini:2012kx}. The target is the
+computational interface between the building energy model, using EnergyPlus,
+and the urban energy model using CitySim. An overview of the larger scope is
+shown in Figure \ref{fig:UMEM} and the context of the coupling task appears as the interface between the City Energy Simulation (CES) model and the
+Building Energy Simulation (BES) model.
 
 % \noteDT{can we do phrasing? prettyplease?}
 
@@ -220,7 +221,7 @@ engine.
 
  % with a target on the use of these models for building retrofit analysis.\noteDT{I do not understand the preceding sentence. Neither will the reviewer}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.7]{figures/UMEM_overview_new}
 \caption{EnergyPlus and CitySim coupling are part of the wider context. Each
@@ -244,8 +245,8 @@ This paper describes the achievement of several objectives:
 
 The first two objectives have been demonstrated in a simplified context in
 previous literature \citep{thomas2014multiscale,Miller:2015vk}. The innovation
-in the current publication is an extension to this research through the
-modelling and co-simulation of real-world case studies. With respect to the
+in the current publication is an extension of this research through the
+modeling and co-simulation of real-world case studies. With respect to the
 third contribution, to the best of the authors' knowledge, no previous study
 has compared the results of a building and urban-scale co-simulation procedure
 to measured data from a real-world campus.% \noteDT{:)} 
@@ -253,7 +254,7 @@ to measured data from a real-world campus.% \noteDT{:)}
 \subsection{Previous multi-scale coupling studies}
 Previous attempts of information exchange have been implemented between
 simulation engines at various scales. Much of the initial co-simulation work
-in the literature is at the subsystem and building-scales. Previous studies
+in the literature is done at the subsystem and building-scale. Previous studies
 have analyzed strong and loose coupling of engines at this scale
 \citep{Trcka:2010cr,Wetter:2011kh}. Coupling of building-scale simulation with
 urban-scale computational fluid dynamics (CFD) is attempted for modeling
@@ -264,25 +265,26 @@ strategic aspects of coupling different %\noteDT{did you mean: "strategic"?}b
 types of models \citep{Srebric:2015gq}. EnergyPlus has been coupled with ENVI-
 met, a micro-climate computational fluid dynamics (CFD) program
 \citep{Yang:2012cr}. It was also coupled with simplified lumped parameter
-models in order to facilitate comparison with measured sensor data
+models to facilitate comparison with measured sensor data
 \citep{Martin:2015fj}. EnergyPlus and the TEP Urban Canopy Model program were
-coupled in order to quantify the influences of urban localized weather effects
+coupled to quantify the influences of urban localized weather effects
 on whole building simulation \citep{Bueno:2011hi} and urban weather generation
 \citep{Bueno:2013hh}.
 % Recent work in coupling geographic information systems platforms like GIS and simplified performance modeling techniques have also been completed \citep{Fonseca:2015bm}\noteDT{this is not technically a simulation coupling}.
 % \subsection{Urban scale performance simulation}
 
 \section{Methodology}\label{Methodology}
-% Portions of the following methodology is developed in previous literature and is reiterated in this section in order to set the context for Section \ref{Implementation}. The previous published research is clearly outlined at the beginning of each subsection.
+% Portions of the following methodology is developed in previous literature and is reiterated to set the context for Section \ref{Implementation}. The previously published research is clearly outlined at the beginning of each subsection.
 
-\subsection{Coupling process} The coupling process of a simplified single zone
-model and contextual surrounding buildings is outlined in previous studies
-\citep{thomas2014multiscale}. This study forms the basis for the methodology
+\subsection{Coupling process} 
+The coupling process of a simplified single zone
+model and contextual surrounding buildings is described in previous studies
+\citep{thomas2014multiscale}, which forms the basis for the methodology
 in the current effort. This process utilizes the Design Performance Viewer
-(DPV) and associated work flow. The DPV is a tool written to extract and
+(DPV) and associated workflow. The DPV is a tool written to extract and
 simulate an EnergyPlus input data file (IDF) from an
 Autodesk\textsuperscript{TM} Revit\textsuperscript{TM} BIM
-\citep{Schlueter2009}. The main philosophy behind the tool is rapid simulation
+\citep{Schlueter2009}. The central philosophy behind the tool is a rapid simulation
 of the building information model from the earliest design possible and can be
 used throughout the life-cycle of the building including retrofit analysis
 \citep{Miller:2014tu}. This process is achieved by augmenting the information
@@ -291,18 +293,18 @@ energy simulation. The tool already has a simplified notion of surrounding
 buildings, which are modeled in the BIM as simple mass objects without further
 information and are exported as shading surfaces to EnergyPlus. This
 functionality is used for creating the CitySim mass scene and leads to a crude
-model of the urban context of the building. The existing DPV philosophy of
+model of the urban context of the building. The current DPV philosophy of
 allowing the designer to iterate rapidly on early design decisions based on
 feedback about the performance of the design remains. This approach includes
 streamlining the process where running a simulation requires no effort from
-the designer due to automatic creation of input files, execution and analysis
+the designer due to automatic creation of input files, execution, and analysis
 of the results.% \noteDT{not sure the second reference includes coupling...}
 
 The coupling process of EnergyPlus and CitySim is shown in Figure
 \ref{fig:OverallWorkflowProcess}. First, the DPV is used to extract an
 EnergyPlus simulation model from the BIM. The DPV utilizes the Revit API to
 extract geometrical information about the building and the physical properties
-of walls, windows, doors, roofs and floors. This information is encoded in the
+of walls, windows, doors, roofs, and floors. This information is encoded in the
 BIM model as wall types, roof types, floor types as well as window and door
 families. Wherever possible, the tool uses the layering and materials of the
 construction types, enhancing them with physical attributes relevant to
@@ -320,16 +322,14 @@ as buildings and surfaces surrounding the building targeted in the IDF. This
 feature of the DPV is used for including shading surfaces in the EnergyPlus
 simulation model: it uses so-called \emph{mass objects} in the BIM model as
 surrounding buildings. The DPV model views these buildings as a series of
-shading surfaces. A transformation is added on the DPV model that produces an
+shading surfaces. A transformation is added to the DPV model that produces an
 input file for the CitySim solver. This file uses an XML format describing the
 buildings in a scene for simulation, including their construction types,
-geometry and systems for heating and cooling. The main BIM is extracted to the
+geometry, and systems for heating and cooling. The main BIM is extracted to the
 CitySim scene as one of the buildings to be simulated, with the properties of
 the construction types matching those in the DPV model. The glazing ratio is
 calculated based on the window and wall areas of the DPV model. Shading
-surfaces are grouped into buildings based on the mass object they were
-extracted from. These neighboring buildings use default construction
-properties for walls and roofs and we assign them a default glazing ratio.
+surfaces are grouped into buildings based on the mass object from which they were extracted. These neighboring buildings use default construction properties for walls and roofs, and we assign them a default glazing ratio.
 These defaults can be overridden by custom properties applied to the mass
 objects in the BIM much in the same way as the model elements of the main
 building are enriched with DPV information.
@@ -343,11 +343,11 @@ linked to the Energy Management System (EMS) of EnergyPlus. Co-simulation
 exchange variables either mimic an EnergyPlus schedule, an EMS variable or
 drive an EMS actuator. Since the model used by CitySim to simulate a building
 is more abstract than the model used by EnergyPlus, the EMS is used to
-aggregate certain values. CitySim does not model windows separately, therefore
+aggregate certain values. CitySim does not model windows separately. Therefore,
 a weighted average of window and wall surface temperatures is calculated with
 EMS subroutines.\noteDT{@JK: is this last statement correct?}
 
-% It was determined that in order to export an output variable using the FMU export functionality, the variable itself must also be output with an IDF object of type \emph{Output:Variable} or \emph{EnergyManagementSystem:OutputVariable} in the IDF file as well.
+% It was determined that to export an output variable using the FMU export functionality, the variable itself must also be output with an IDF object of type \emph{Output:Variable} or \emph{EnergyManagementSystem:OutputVariable} in the IDF file as well.
 
 % The process of augmenting the IDF file is automated with the EMS subroutines and FMU export objects. The script \emph{addfmutoidf.py}, written in the Python programming language, uses the \emph{parseidf} module to read in the IDF file and add the new IDF objects based on those found in the model.  This script reads in the list of surfaces defined in the IDF file and produces EMS scripts to aggregate and output the surface temperatures of the wall and the windows as well as any other output objects necessary.
 
@@ -375,19 +375,18 @@ run the simulation.
 
 % On an hourly basis, CitySim performs a heating and cooling needs prediction step. The temperature determination step for the main building is replaced with the results of the EnergyPlus timestep as obtained through FMI library. The FMI library is used to send climatic and occupational data from CitySim to EnergyPlus, and to receive data from EnergyPlus that are further used within CitySim for the next time steps. 
 Several key urban-scale weather variables are sent to EnergyPlus from CitySim
-in order to better account for the localized effects of surrounding buildings,
+to account better for the localized effects of surrounding buildings,
 geography and climate conditions. These variables include various outdoor air
-conditions such as drybulb and wetbulb temperatures, dewpoint, humidity, wind
+conditions such as dry bulb and wet bulb temperatures, dewpoint, humidity, wind
 speed and direction, and direct and diffuse solar radiation. These variables
 overwrite the input weather variables that EnergyPlus obtains from its weather
 file input. CitySim is designed to account for physical phenomenon inherent to
 urban environments, that are often neglected in building-scale simulation
 environments \citep{Robinson:2004cr,Robinson:2009tm}. Long wave radiation
 exchange between the simulated building and its surroundings is sent to
-EnergyPlus; this process is describe\noteDT{s/describe/described/} in detail
-in a subsequent methodology section\noteDT{can we not just name the section?
-this phrasing seems awkward}. Finally, CitySim shares its calculated occupancy
-schedules as it uses a more robust model of occupants behavior
+EnergyPlus; this process is described in detail in Section \ref{lwradiation}.
+Finally, CitySim shares its calculated occupancy schedules as it uses a more
+robust model of occupants behavior
 \citep{Haldi:2011dr}.
 
 % \noteDT{s/climactic/climatic/}
@@ -421,9 +420,9 @@ variables related to the calculation of heating and cooling loads of a
 targeted building. These variables are transferred due to the ability of
 EnergyPlus to model more detailed building systems, schedules, ventilation and
 internal load types than CitySim. For example, EnergyPlus is flexible enough
-to model a detailed, radiant heating and cooling system that would be
+to model a detailed radiant heating and cooling system that would be
 impossible in CiytSim \citep{barbara:2015tz}. EnergyPlus is an engine
-optimized to accurately model building-scale systems, thus CitySim can take 
+optimized to accurately model building-scale systems. Thus, CitySim can take 
 advantage of these models through coupling and co-simulation. EnergyPlus sends
 the heating and cooling loads, the surface temperatures of the exterior
 surfaces and the ventilation flow rates to CitySim.
@@ -431,9 +430,9 @@ surfaces and the ventilation flow rates to CitySim.
 %\noteDT{I'm not sure this is proper English. Or American for that
 %matter...}
 
-\noteDT{in table 2: "Values SENT to CitySim..."}
+%\noteDT{in table 2: "Values SENT to CitySim..."}
 \begin{table}[H]
-\tbl{Values to CitySim from EnergyPlus by the FMU}
+\tbl{Values sent to CitySim from EnergyPlus by the FMU}
 {\begin{tabular}[l]{@{}lcc}\toprule
   \bf{Object} &  \bf{Variable Name} & \bf{Description} \\
 \colrule
@@ -452,12 +451,12 @@ Zone & Total Heating Energy & The heating energy in Joules used in this timestep
 \end{table}
 
 \subsection{Long wave radiation exchange}
-
+\label{lwradiation}
 Long wave radiation exchange in the urban scale environment is coupled in the
-co-simulation process and it requires the development of a set of
+co-simulation process. It requires the development of a set of
 approximations to reduce the number of coupled variables between the engines
 and to account for differences in the methods by which each engine calculates
-this metric. A detailed description of Long Wave Radiation (LWR) variable
+this value. A detailed description of Long Wave Radiation (LWR) variable
 exchange and approximation is found in a previously published study
 \citep{Miller:2015vk} on a simplified theoretical case.
 
@@ -511,10 +510,19 @@ with two adjacent buildings with surfaces available for radiation exchange.
 
 \subsection{Work flow automation}
 The coupling, simulation and co-simulation process is completely managed
-within a program called VisTrails \citep{Anonymous:Cayf2tu7}. This tool
-empowers the coupling of various executable files and their connecting scripts
-in graphical diagrams that enhances reproducibility and
-process automation \citep{Freire:2014tt}.
+within a program called VisTrails \citep{Anonymous:Cayf2tu7}. The
+implementation of this type of work flow is outlined in previous work focused
+on automating DPV using the Kepler platform \citep{Thomas:2012wj}. This
+process reduces the effort expended by a designer down to pressing a single
+button. This functionality allows an iterative design style informed by
+readily available simulation results. An automated work flow to tie the
+various steps together and maintain the effortless iterative design process.
+VisTrails enables the coupling of various work flow subprocesses script
+initializations, executions of the engines, and the compilation of the
+outputs. This tool empowers the coupling of various executable files and their
+connecting scripts in graphical diagrams that enhances reproducibility and
+process automation \citep{Freire:2014tt}. The VisTrails work flow diagram for
+the first case study in this paper is seen in Figure \ref{VizTrails}.
 
 % INSERT VISTRAILS GRAPHIC HERE\noteCM{Daren -- can you give me a good screenshot of the Vistrails for the HPI building? Pretty please.}\noteDT{sure - check out 36-HPI-cosim.pdf in the figures folder}
 
@@ -537,7 +545,7 @@ LEED Canada protocol and were under review of actualized performance. This
 protocol is unique in its analysis process to uncover design model
 deficiencies in a step-wise manner, utilizing the most easily accessible
 knowledge first and working towards equilibrium between measured and
-simulated. An appropriate balance between effort of implementation and value
+simulated. An appropriate balance between the effort of implementation and value
 generated through the calibration process.
 
 % The following steps are the general procedure applied to the targeted buildings:
@@ -560,7 +568,7 @@ available for many of the buildings on campus, thus a simplified calibration
 procedure is used to reconcile the simulation results.\\
 
 The second case study is the EPFL campus in Lausanne, Switzerland. The
-targeted building in this case was the Quartier Nord complex. The focus of
+targeted building, in this case, was the Quartier Nord complex. The focus of
 this study was to compare the output results of both CitySim and EnergyPlus.
 Reliable measured data for calibration is not currently available for this
 building.
@@ -570,7 +578,7 @@ building.
 %The simulation and calibration process is implemented on a campus case study located in Z\"urich, Switzerland. 
 The ETH Z\"urich Hoenggerberg campus includes 32 higher education facilities
  with spaces allocated to laboratories, office space, lecture halls,
- cafeterias, data centers and other types of similar spaces. The campus has a
+ cafeterias, data centers and other types of similar areas. The campus has a
  centralized energy management system (EMS) that contains 807 energy and water
  measurement points from heating, cooling, electricity, city gas, domestic hot
  water, grey water, and general water consumption. %\noteDT{deleted: "buildings"}
@@ -664,8 +672,8 @@ simulations after the tuning process. The final calibrated EnergyPlus solo
 model had a normalized mean bias error (NMBE) of -9.36\% and a coefficient of
 variation of root mean square error (CVRMSE) of 21.7\% for cooling and -9.36\%
 and 29.4\% for heating. These metrics fall within the +/-10\% NMBE and +/-30\%
-CVRSME used in this case study for the purposes of partial calibration. The
-goal of calibration in this case is to simply bring the models to within a
+CVRSME used in this case study for calibration. The
+goal of calibration, in this case, is to just bring the models to within a
 reasonable range of reality in order to bring more confidence to analysis of
 the discrepancies between the solo and co-simulation
 scenarios.
@@ -687,7 +695,7 @@ scenarios.
 After calibration, a comparison of co-simulation and solo EnergyPlus
 simulations is made. For cooling, a discrepancy can be seen between co-
 simulation and solo EnergyPlus. Co-simulation results in a 20.2\% decrease in
-predicted cooling energy is observed as seen in Figure
+predicted cooling energy, as seen in Figure
 \ref{fig:hpi_energypluscooling}. Figure \ref{fig:hpi_energyplusheating}
 illustrates the difference in predicted heating energy consumption across the
 test year. A consistent offset exists across the time frame of days in
@@ -697,8 +705,9 @@ of 4.8\% due to co-simulation. The exchange of long wave radiation for this
 particular site is substantial due to the proximity of surrounding buildings.
 These performance differences due to co-simulation are compared to a
 theoretical single-zone case study in which there was a 15-30\% increase in
-heating energy and a 4-11\% decrease in cooling energy. The results from this
-scenario are less extreme on the heating side and more on the cooling side.
+heating energy and a 4-11\% decrease in cooling energy \citep{Miller:2015vk}.
+The results from this scenario are less extreme on the heating side and more
+on the cooling side than the theoretical case study.
 
 % \noteDT{with respect to what???}
 % \noteDT{greater than what??}
@@ -749,7 +758,7 @@ Quartier Nord is a whole new quarter of the École Polytechnique Fédérale de
 Lausanne (EPFL) campus located at its northwest corner. This complex includes
 a Convention Centre with an auditorium with a maximum capacity of 3000
 (seated) people, housing for 516 students, retail and service areas and a
-hotel. As a public space, this ensemble is organized around a main plaza as
+hotel. As a public space, this ensemble is organized around the central plaza as
 seen in Figure \ref{fig:quartier_nord_1}).
 
 \begin{figure}[H]
@@ -761,7 +770,7 @@ seen in Figure \ref{fig:quartier_nord_1}).
 
 With a particularly strong visual and formal identity, the SwissTech
 Convention Centre (STCC) is clearly the key protagonist.\noteDT{move main
-sentence to start of paragraph} Applied with important functions for the
+sentence to start of paragraph} Applied with essential functions for the
 region, the building has definitely become the new landmark. Designed as a
 Minergie\noteDT{ref?} building, it includes modern energy conversion
 technologies to reduce its energy consumption. The focus of the co-simulation
@@ -778,7 +787,7 @@ to tender to construction. However, since the documents provided were full of
 details but also conflicting with what has been installed as compared to the
 documents before construction, the task to realize a precise model of the
 buildings itself is rather tedious. Besides, it is even more challenging to
-get the operational data (daily occupancy, lighting and electrical equipment
+get the operational data (daily occupancy, lighting, and electrical equipment
 usage level and ventilation rate) as the building has only recently been set
 in operation mode and as engineers and technicians have been working on
 improving the controls. Therefore, due to unreliable monitoring data, the
@@ -805,12 +814,12 @@ of the study and is represented by two thermal zones.}
 
 The corresponding CitySim model was created by exporting a DXF file from
 EnergyPlus, and importing it into the Graphical User Interface of CitySim.
-Physical caracteristics of the building were added to complete the CitySim
+Physical characteristics of the building were added to complete the CitySim
 model. Finally, the same script as described in Section \ref{Methodology} was
 used to export the model from CitySim to EnergyPlus, giving a simplified
 EnergyPlus model.\\
 
-% As a summary, three models are compared: a detailed EnergyPlus model, a simplified CitySim model and a simplified EnergyPlus model. In addition to what a coupled simplified CitySim and EnergyPlus model is realised and its results analysed with respect to the other three models. 
+% As a summary, three models are compared: a detailed EnergyPlus model, a simplified CitySim model and a simplified EnergyPlus model. In addition to what a coupled simplified CitySim and EnergyPlus model is realized and its results analyzed with respect to the other three models. 
 
 % \section{Results}
 % {\color{red}Here we show all of the data of the comparison between the simulation outputs and the measured data from the campus}
@@ -819,18 +828,23 @@ EnergyPlus model.\\
 \subsection{Comparison of EnergyPlus and CitySim}
 
 Both the CitySim and EnergyPlus engines are utilized in this case study. The
-first comparison to observe are the differences between the two engines when
+first comparison to observe is the differences between the two engines when
 focused on the Quartier Nord building. When simulated in isolation, the
 CitySim engine predicts a 28.6\% increase in heating load and a 44.4\%
-increase in cooling load than EnergyPlus with the
-model inputs aligned as closely as possible\noteDT{??! aligned as closely as
-possible? this is not how we overcome the dark lord. can we quantify this?}.
-This phenomenon is due to the differences in the way each of these engines
-calculates heating and cooling loads. Use of the co-simulation process,\noteDT
-{comma-comma-comma, or not} brings the engines to within 5.4\%. Figure
-\ref{fig:qn_eplusvscitysim_heating} illustrates these differences.\noteDT{in
-the figures that follow, Cosim and CoSim are both used. decide. then stick to
-one spelling. everywhere. notice how i need a break? tgif!}
+increase in cooling load as compared to EnergyPlus. This phenomenon is due to
+the differences in the way each of these engines calculates heating and
+cooling loads. Use of the co-simulation process brings the engines to within
+5.4\%. Figure \ref{fig:qn_eplusvscitysim_cooling} illustrates these
+differences for cooling and Figure \ref{fig:qn_eplusvscitysim_heating} for
+heating.
+% \noteDT{in
+% the figures that follow, Cosim and CoSim are both used. decide. then stick to
+% one spelling. everywhere. notice how i need a break? tgif!}
+
+% as closely as possible\noteDT{??! aligned as closely as
+% possible? this is not how we overcome the dark lord. can we quantify this?}
+
+% ,\noteDT % {comma-comma-comma, or not}
 
 \begin{figure}[H]
 \centering
@@ -847,14 +861,18 @@ one spelling. everywhere. notice how i need a break? tgif!}
 \end{figure}
 
 \subsection{EnergyPlus co-simulation results}
-When focusing on the EnergyPlus results, a 7.5\% decrease in cooling energy is
+The Quartier Nord building is also simulated within the solo and
+cosimulation environments. When
+focusing on the EnergyPlus results, a 7.5\% decrease in cooling energy is
 observed, as seen in Figure
 \ref{fig:qn_eplus_cosimvssolo_cooling}. A 2.8\% increase in heating energy is
 observed, as seen in Figure
-\ref{fig:qn_eplus_cosimvssolo_heating}. These differences are less prounced
-that the HPI case study. \noteCM{I'm planning to elaborate on these sections
+\ref{fig:qn_eplus_cosimvssolo_heating}. These differences are less pronounced
+that the HPI and theoretical case studies due to the number and proximity of
+surrounding buildings is not as large. \noteCM{I'm planning to elaborate on
+these sections
 but am struggling to interpret the results other than just "co-sim and solo
-are difference" -- what do you guys think?}\noteDT{well, for a start, the two
+are different" -- what do you guys think?}\noteDT{well, for a start, the two
 case studies differ in the amount of LWR radiation. we could quantify that?
 also, the number of surfaces of the e+ model with viewfactor to surrounding
 buildings?}
@@ -880,7 +898,10 @@ buildings?}
 When focusing solely on CitySim, a 26.9\% decrease in heating energy is
 observed, as seen in Figure \ref{fig:qn_citysim_cosimvssolo_cooling}. A 49.1\%
 decrease in heating energy is observed, as seen in Figure
-\ref{fig:qn_citysim_cosimvssolo_heating}. \noteCM{Jerome -- I need some help
+\ref{fig:qn_citysim_cosimvssolo_heating}. These results align with the
+previous comparison of EnergyPlus and CitySim engines. The substantial
+differences between solo and co-simulation in these cases is a result of
+EnergyPlus transferring the heating and cooling load values at each time step. \noteCM{Jerome -- I need some help
 interpreting these results -- you mentioned that there is an expected delta
 between citysim and energyplus in previous studies. Can you help elaborate on
 that?}
@@ -906,10 +927,10 @@ engines can enhance the modeling of large scale urban agglomerations. This
 paper has outlined two such scenarios in which the building-focused EnergyPlus
 simulation engine is coupled and co-simulated with the urban-scale CitySim
 engine. This process is implemented through a fully automated work flow
-process that extract\noteDT{s/extract/extracts/} geometry information at the
+process that extracts geometry information at the
 urban-scale, creates the necessary input information, executes each engine
-with information exchange at each timestep of targeted variables, and
-accumulates the results for analysis. The process has been implemented on
+with information exchange at each time step of targeted variables, and
+accumulates the results of analysis. The process has been implemented on
 simplified theoretical scenarios in the past and the key innovation with this
 work is in implementation on actual case study campuses and targeted
 buildings. The results illustrate that the differences between the co-
@@ -926,7 +947,9 @@ The authors would like to acknowledge the ETH Z\"urich Campus Facilities
 Department, the EPFL Real Estate and Infrastructure Department, and Emanuel
 Thoma for their assistance in this project. This research was funded by the
 Competence Center in Energy and Mobility (CCEM) under the Urban Multi-scale
-Energy Modeling (UMEM) project.% \noteDT{We also
+Energy Modeling (UMEM) project. The authors would also like to acknowledge
+ Emanuel Thoma for his work in developing the geometric models.% %
+ % \noteDT{We also
 % want to acknowledge Emanuel Thoma for his work on the Hoenggerberg model, no?}
 
 \bibliographystyle{tBPS}
