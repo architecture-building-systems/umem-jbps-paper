@@ -133,7 +133,8 @@ Building-scale simulation, Calibrated energy models, CitySim, Co-simulation, Ene
 
 \linenumbers
 
-\section{Introduction}\noteCM{Clayton's notes are red!}\noteJK{Jerome's notes are blue!}\noteDT{Daren's notes are green!}
+\section{Introduction}
+% \noteCM{Clayton's notes are red!}\noteJK{Jerome's notes are blue!}\noteDT{Daren's notes are green!}
 
 Urban scale building performance simulation is a process that empowers the
 analysis and optimization of cities. Urban populations are growing around the
@@ -345,7 +346,8 @@ drive an EMS actuator. Since the model used by CitySim to simulate a building
 is more abstract than the model used by EnergyPlus, the EMS is used to
 aggregate certain values. CitySim does not model windows separately. Therefore,
 a weighted average of window and wall surface temperatures is calculated with
-EMS subroutines.\noteDT{@JK: is this last statement correct?}
+EMS subroutines.
+% \noteDT{@JK: is this last statement correct?}
 
 % It was determined that to export an output variable using the FMU export functionality, the variable itself must also be output with an IDF object of type \emph{Output:Variable} or \emph{EnergyManagementSystem:OutputVariable} in the IDF file as well.
 
@@ -694,20 +696,25 @@ scenarios.
 \subsection{EnergyPlus co-simulation results}
 After calibration, a comparison of co-simulation and solo EnergyPlus
 simulations is made. For cooling, a discrepancy can be seen between co-
-simulation and solo EnergyPlus. Co-simulation results in a 20.2\% decrease in
+simulation and solo EnergyPlus. Co-simulation results in a 15.5\% decrease in
 predicted cooling energy, as seen in Figure
 \ref{fig:hpi_energypluscooling}. Figure \ref{fig:hpi_energyplusheating}
 illustrates the difference in predicted heating energy consumption across the
 test year. A consistent offset exists across the time frame of days in
 January, the peak of the heating season. A more varied discrepancy across the
 heating months is noticed resulting an overall increase of heating prediction
-of 4.8\% due to co-simulation. The exchange of long wave radiation for this
+of 6.5\% due to co-simulation. The exchange of long wave radiation for this
 particular site is substantial due to the proximity of surrounding buildings.
 These performance differences due to co-simulation are compared to a
 theoretical single-zone case study in which there was a 15-30\% increase in
 heating energy and a 4-11\% decrease in cooling energy \citep{Miller:2015vk}.
 The results from this scenario are less extreme on the heating side and more
-on the cooling side than the theoretical case study.
+on the cooling side than the theoretical case study. 
+
+When comparing the solo and co-simulated models to the measured data, it is noticed that 
+cooling energy is over-predicted by the solo simulation by 4\%, while co-simulation under-predicted 
+by 11.1\%. For heating energy, co-simulation was able to bring the predicted value to within 2\% of 
+the measured value for the year, an improvement as compared to the solo simulation, which was 8.5\% less than the measured value.
 
 % \noteDT{with respect to what???}
 % \noteDT{greater than what??}
@@ -769,13 +776,14 @@ seen in Figure \ref{fig:quartier_nord_1}).
 \end{figure}
 
 With a particularly strong visual and formal identity, the SwissTech
-Convention Centre (STCC) is clearly the key protagonist.\noteDT{move main
-sentence to start of paragraph} Applied with essential functions for the
+Convention Centre (STCC) is clearly the key protagonist. Applied with essential functions for the
 region, the building has definitely become the new landmark. Designed as a
-Minergie\noteDT{ref?} building, it includes modern energy conversion
+Minergie building, it includes modern energy conversion
 technologies to reduce its energy consumption. The focus of the co-simulation
 is realized on the STCC, simulated with the nearby buildings for housing,
 retail and service areas.
+% \noteDT{move main
+% sentence to start of paragraph}
 
 \subsection{Model development}
 The information required in the simulation mainly comprises three parts:
@@ -791,11 +799,12 @@ get the operational data (daily occupancy, lighting, and electrical equipment
 usage level and ventilation rate) as the building has only recently been set
 in operation mode and as engineers and technicians have been working on
 improving the controls. Therefore, due to unreliable monitoring data, the
-calibration step of the model has been unfortunately\noteDT{delete:
-"unfortunately". we are cold hard scientists battling the evil nemesis that is
-entropy and his plan to suffocate everyone with the inevitable heat death of
-the universe. we have no time for lame excuses. we just abandon. no regrets.
-thug life!} abandoned.\\
+calibration step of the model was not undertaken.\\
+% \noteDT{delete:
+% "unfortunately". we are cold hard scientists battling the evil nemesis that is
+% entropy and his plan to suffocate everyone with the inevitable heat death of
+% the universe. we have no time for lame excuses. we just abandon. no regrets.
+% thug life!}
 
 Considering the lack of detailed information about the building, a so-called
 detailed reference case was modeled with EnergyPlus \citep{Mauree:2015to} in
@@ -869,13 +878,15 @@ observed, as seen in Figure
 observed, as seen in Figure
 \ref{fig:qn_eplus_cosimvssolo_heating}. These differences are less pronounced
 that the HPI and theoretical case studies due to the number and proximity of
-surrounding buildings is not as large. \noteCM{I'm planning to elaborate on
-these sections
-but am struggling to interpret the results other than just "co-sim and solo
-are different" -- what do you guys think?}\noteDT{well, for a start, the two
-case studies differ in the amount of LWR radiation. we could quantify that?
-also, the number of surfaces of the e+ model with viewfactor to surrounding
-buildings?}
+surrounding buildings is not as large. Long wave radiation exchange in this situation 
+doesn't have as large of an impact on the heating and cooling calculations.
+% \noteCM{I'm planning to elaborate on
+% these sections
+% but am struggling to interpret the results other than just "co-sim and solo
+% are different" -- what do you guys think?}\noteDT{well, for a start, the two
+% case studies differ in the amount of LWR radiation. we could quantify that?
+% also, the number of surfaces of the e+ model with viewfactor to surrounding
+% buildings?}
 
 
 \begin{figure}[H]
@@ -893,32 +904,32 @@ buildings?}
 \label{fig:qn_eplus_cosimvssolo_heating}
 \end{figure}
 
-\subsection{CitySim co-simulation results}
+% \subsection{CitySim co-simulation results}
 
-When focusing solely on CitySim, a 26.9\% decrease in heating energy is
-observed, as seen in Figure \ref{fig:qn_citysim_cosimvssolo_cooling}. A 49.1\%
-decrease in heating energy is observed, as seen in Figure
-\ref{fig:qn_citysim_cosimvssolo_heating}. These results align with the
-previous comparison of EnergyPlus and CitySim engines. The substantial
-differences between solo and co-simulation in these cases is a result of
-EnergyPlus transferring the heating and cooling load values at each time step. \noteCM{Jerome -- I need some help
-interpreting these results -- you mentioned that there is an expected delta
-between citysim and energyplus in previous studies. Can you help elaborate on
-that?}
+% When focusing solely on CitySim, a 26.9\% decrease in heating energy is
+% observed, as seen in Figure \ref{fig:qn_citysim_cosimvssolo_cooling}. A 49.1\%
+% decrease in heating energy is observed, as seen in Figure
+% \ref{fig:qn_citysim_cosimvssolo_heating}. These results align with the
+% previous comparison of EnergyPlus and CitySim engines. The substantial
+% differences between solo and co-simulation in these cases is a result of
+% EnergyPlus transferring the heating and cooling load values at each time step. \noteCM{Jerome -- I need some help
+% interpreting these results -- you mentioned that there is an expected delta
+% between citysim and energyplus in previous studies. Can you help elaborate on
+% that?}
 
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.55]{figures/QN_CitySim_Cooling}
-\caption{Quartier Nord CitySim Co-Simulation vs. Solo for Cooling}
-\label{fig:qn_citysim_cosimvssolo_cooling}
-\end{figure}
+% \begin{figure}[H]
+% \centering
+% \includegraphics[scale=0.55]{figures/QN_CitySim_Cooling}
+% \caption{Quartier Nord CitySim Co-Simulation vs. Solo for Cooling}
+% \label{fig:qn_citysim_cosimvssolo_cooling}
+% \end{figure}
 
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.55]{figures/QN_CitySim_Heating}
-\caption{Quartier Nord CitySim Co-Simulation vs. Solo for Heating}
-\label{fig:qn_citysim_cosimvssolo_heating}
-\end{figure}
+% \begin{figure}[H]
+% \centering
+% \includegraphics[scale=0.55]{figures/QN_CitySim_Heating}
+% \caption{Quartier Nord CitySim Co-Simulation vs. Solo for Heating}
+% \label{fig:qn_citysim_cosimvssolo_heating}
+% \end{figure}
 
 
 \section{Conclusion}
@@ -936,7 +947,7 @@ work is in implementation on actual case study campuses and targeted
 buildings. The results illustrate that the differences between the co-
 simulation and solo environments are within range of previous theoretical
 models. More reliable results of the magnitude of differences between the
-simulation techniques can be extracted from these real-world scenarios.
+simulation techniques can be extracted from these real-world scenarios. 
 
 Future work in using co-simulation models for buildings and campuses would
 more intensively utilize the model results in a practical implementation of
@@ -947,8 +958,9 @@ The authors would like to acknowledge the ETH Z\"urich Campus Facilities
 Department, the EPFL Real Estate and Infrastructure Department, and Emanuel
 Thoma for their assistance in this project. This research was funded by the
 Competence Center in Energy and Mobility (CCEM) under the Urban Multi-scale
-Energy Modeling (UMEM) project. The authors would also like to acknowledge
- Emanuel Thoma for his work in developing the geometric models.% %
+Energy Modeling (UMEM) project. 
+% The authors would also like to acknowledge
+ % Emanuel Thoma for his work in developing the geometric models.% %
  % \noteDT{We also
 % want to acknowledge Emanuel Thoma for his work on the Hoenggerberg model, no?}
 
