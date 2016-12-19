@@ -62,8 +62,8 @@ and Arno Schlueter\textsuperscript{a}\\
     simulations with the measured data of a targeted office building on
     campus. In the second case study, the co-simulation results are compared
     to the both the CitySim simulation and EnergyPlus engines. The results
-    show that coupling of EnergyPlus with CitySim resulted in a -20\% and
-    -7.5\% impact on cooling consumption and a +2.8\% and +4.8\% impact on
+    show that coupling of EnergyPlus with CitySim resulted in a -15.5\% and
+    -7.5\% impact on cooling consumption and a +6.5\% and +4.8\% impact on
     heating consumption. Challenges encountered with the urban scale
     calibration and the strengths and weaknesses of the developed process are
     discussed.
@@ -408,8 +408,9 @@ robust model of occupants behavior
  & Wind Direction & The wind direction in degrees\\&&  (N=0, E=90, S=180, W=270) \\
  \hline
  Long Wave Radiation & Environmental Radiant Temp. & Calculated $T_{env}$ from the sky,\\&& ground, and surrounding surfaces \\
- & Environmental Radiant Heat & Calculated $h_{env}$ from the sky,\\&& ground, and surrounding surfaces \\
- & Gain Coefficient \\
+ & Environmental Radiant Heat  & Calculated $h_{env}$ from the sky,\\
+ & Gain Coefficient & ground, and surrounding surfaces \\
+ 
  \hline
 Zone & Occupation & Fraction of the maximum occupation\\&& (0.0-1.0) overrides the EnergyPlus occupation schedule\\&&  with the CitySim stochastic schedule. \\
 \botrule
@@ -547,7 +548,7 @@ LEED Canada protocol and were under review of actualized performance. This
 protocol is unique in its analysis process to uncover design model
 deficiencies in a step-wise manner, utilizing the most easily accessible
 knowledge first and working towards equilibrium between measured and
-simulated. An appropriate balance between the effort of implementation and value
+simulated. There is an appropriate balance between the effort of implementation and value
 generated through the calibration process.
 
 % The following steps are the general procedure applied to the targeted buildings:
@@ -597,7 +598,7 @@ The ETH Z\"urich Hoenggerberg campus includes 32 higher education facilities
 The focus of the co-simulation process is that the performance of a targeted
 building is evaluated through solo and coupled methods. The HPI building on
 campus was chosen in this case study due to the amount and quality of measured
-data available from the EMS for this building. HPI is a 2,610 sq. meter
+data available from the EMS for this building. HPI is a 2,610 square meter
 building that is made up mostly of office space and classrooms. It also
 includes 400 $m^2$ convenience store and coffee shop. The building is
 indicated on a campus map shown in Figure \ref{fig:campusmap} and is shaded
@@ -615,9 +616,9 @@ red.
 
 \subsection{Model development}
 In order to perform a co-simulation of the targeted buildings, initially a
-CitySim model of the campus is developed. Through the workflow automation
+CitySim model of the campus was developed. Through the workflow automation
 process, this geometry was converted into an EnergyPlus input file as seen in
-Figure \ref{fig:HPIcampus}. The EnergyPlus input file is then used as an input
+Figure \ref{fig:HPIcampus}. The EnergyPlus input file was then used as an input
 to execute EnergyPlus solo and co-simulation processes for the purpose of
 simplified calibration, and then to understand the magnitude of difference
 between these simulation scenarios.% An existing EnergyPlus model is used for the HPZ building and simplified single-zone EnergyPlus models are extracted from the CitySim geometry for the other three targeted buildings.
@@ -696,8 +697,7 @@ scenarios.
 \subsection{EnergyPlus co-simulation results}
 After calibration, a comparison of co-simulation and solo EnergyPlus
 simulations is made. For cooling, a discrepancy can be seen between co-
-simulation and solo EnergyPlus. Co-simulation results in a 15.5\% decrease in
-predicted cooling energy, as seen in Figure
+simulation and solo EnergyPlus. Co-simulation decreases the predicted cooling energy by 15.5\%, as seen in Figure
 \ref{fig:hpi_energypluscooling}. Figure \ref{fig:hpi_energyplusheating}
 illustrates the difference in predicted heating energy consumption across the
 test year. A consistent offset exists across the time frame of days in
@@ -708,7 +708,7 @@ particular site is substantial due to the proximity of surrounding buildings.
 These performance differences due to co-simulation are compared to a
 theoretical single-zone case study in which there was a 15-30\% increase in
 heating energy and a 4-11\% decrease in cooling energy \citep{Miller:2015vk}.
-The results from this scenario are less extreme on the heating side and more
+The results from this case study are less extreme on the heating side and more
 on the cooling side than the theoretical case study. 
 
 When comparing the solo and co-simulated models to the measured data, it is noticed that 
@@ -766,7 +766,12 @@ Lausanne (EPFL) campus located at its northwest corner. This complex includes
 a Convention Centre with an auditorium with a maximum capacity of 3000
 (seated) people, housing for 516 students, retail and service areas and a
 hotel. As a public space, this ensemble is organized around the central plaza as
-seen in Figure \ref{fig:quartier_nord_1}).
+seen in Figure \ref{fig:quartier_nord_1}). With a particularly strong visual and formal identity, the SwissTech
+Convention Centre (STCC) is clearly the key protagonist.  Designed as a
+Minergie building, it includes modern energy conversion
+technologies to reduce its energy consumption. The focus of the co-simulation
+is realized on the STCC, simulated with the nearby buildings for housing,
+retail and service areas.
 
 \begin{figure}[H]
 \centering
@@ -775,13 +780,9 @@ seen in Figure \ref{fig:quartier_nord_1}).
 \label{fig:quartier_nord_1}
 \end{figure}
 
-With a particularly strong visual and formal identity, the SwissTech
-Convention Centre (STCC) is clearly the key protagonist. Applied with essential functions for the
-region, the building has definitely become the new landmark. Designed as a
-Minergie building, it includes modern energy conversion
-technologies to reduce its energy consumption. The focus of the co-simulation
-is realized on the STCC, simulated with the nearby buildings for housing,
-retail and service areas.
+% Applied with essential functions for the
+% region, the building has definitely become the new landmark.
+
 % \noteDT{move main
 % sentence to start of paragraph}
 
@@ -877,7 +878,7 @@ observed, as seen in Figure
 \ref{fig:qn_eplus_cosimvssolo_cooling}. A 2.8\% increase in heating energy is
 observed, as seen in Figure
 \ref{fig:qn_eplus_cosimvssolo_heating}. These differences are less pronounced
-that the HPI and theoretical case studies due to the number and proximity of
+than the HPI and theoretical case studies due to the number and proximity of
 surrounding buildings is not as large. Long wave radiation exchange in this situation 
 doesn't have as large of an impact on the heating and cooling calculations.
 % \noteCM{I'm planning to elaborate on
@@ -946,7 +947,8 @@ simplified theoretical scenarios in the past and the key innovation with this
 work is in implementation on actual case study campuses and targeted
 buildings. The results illustrate that the differences between the co-
 simulation and solo environments are within range of previous theoretical
-models. More reliable results of the magnitude of differences between the
+models. The results show that there is a noticeable impact 
+More reliable results of the magnitude of differences between the
 simulation techniques can be extracted from these real-world scenarios. 
 
 Future work in using co-simulation models for buildings and campuses would
