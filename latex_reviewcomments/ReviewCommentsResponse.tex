@@ -169,64 +169,57 @@ The first sentence of that paragraph was rewritten to avoid the use of "comared"
 
 \question 21. p. 11, lines 261-262.  The NMBE for heating and cooling are exactly the same and the NMBE for cooling is not in accord with the bar charts in Figure 9. 
 \begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
 \end{solution}
 
 \question 22. p. 11, section 3.4.  Please see the following comments for the two associated figures.  In addition, the presentation of results from the study of Miller et al. is not clear.  Does the Miller study compare solo and co-simulation results?  If so, which results are the reference for the percentage changes? Should the reader conclude that the differences between Miller and this study are comparable (which is comforting) or that deviations are significant, in which case they should be explained. 
 \begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
+\textcolor{red}{Confirm in the Juypter notebook}
 \end{solution}
 
 \question 24. p. 12, Figure 11.  The text states Figure 11 shows differences in predicted heating consumption and notes there is a consistent offset across days in January.  Figure 11 shows hourly variations for presumably averaged days and single points for each month; in short, variations across days cannot be discerned.  Are these variations important to the comparison?  The order of the bars matches Figure 10 but disagrees with Figure 9.  The text compares co-simulation with measurement (using the latter as the reference, which seems appropriate) and shows 2\% annual difference but the numbers over the bars appear to compare co-simulation and measurement with solo simulation and show 6.5\% difference.  As in Figure 11, the numbers (not percentages) over the bars are not explained. 
 \begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
+\textcolor{red}{Update graphics}
 \end{solution}
 
 \question 25. p. 12, section 3.5.  The text should include a reference to the Minergie standard and the caption or image in Figure 12 should identify the STCC building. 
 \begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
+\textcolor{red}{Add Minergie as a reference}
 \end{solution}
 
 \question 
 26. p. 13, line 308.  Please explain SIA and/or provide an appropriate reference.   
 \begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
+\textcolor{red}{Add SIA and explain}
 \end{solution}
 
 \question 
 27. p. 13, lines 310-313.  The text states that the CItySIm model was created from a DXF file from EnergyPlus.  Was this export used solely for the STCC building or was the remainder of the Quartier Nord as shown in Figure 13 designed in Open Studio? 
 \begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
+\textcolor{red}{Jerome -- any feedback on this?}
 \end{solution}
 
 \question 
 28. P. 13, lines 316-322.  The reference in the text for percentage changes is the EnergyPlus simulation but Figures 14 and 15 place the percentages (with opposite sign) about the solo simulations.  The text states that discrepancies between solo and co-simulations are due to differences in calculation of heating and cooling loads.  Please elaborate. 
 \begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
+\textcolor{red}{Confirm numbers in graphics}
 \end{solution}
 
 \question 
 29. P. 14, section 3.8.  The text states that the Quartier Nord building was also simulated. This is a bit confusing because Quartier Nord previously referred to the complex.  Does the building refer to the building on the right in Figures 12 and 13 – i.e., everything except the STCC?  The text also states that differences between solo and co-simulations are small because the surroundings are sparse.  If this is the case, would one expect better agreement between solo and co-simulations for the neighboring STCC?  Also, please consider replacing “due to” with “because” in line 327. 
 \begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
+\textcolor{red}{Jerome -- can you clarify this?}
 \end{solution}
 
 \question 
 30. p. 15.  Conclusion.  There is no summary of strengths and weakness of the process presented in the paper and the future work is limited only to more practical implementation.  Is there nothing to improve? 
 \begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
-\end{solution}
-
-\question 
-23. p. 11, Figure 10. The bar chart in Figure 10 is unnecessarily confusing.  Please consider aligning the three bars in the same order as in Figure 9.  While the scale is acceptable, it requires careful attention to the exponent to compare Figure 9 (1e5) with Figure 10 (1e4).   Why is the reference the solar simulation and not measurement?  And what are the numbers, to four significant digits, above the bars?  The text states that the solo simulation over-predicted cooling energy by 4.1\%.  Is this the same as showing that the measured data were 4.1\% less than the solo simulation?  In other words, is measurement or solo simulation in the denominator of the percentage change?  For example, if one quantity is 150 and the other 100, the first is 50\% higher than the second and the second is 33.3\% lower than the first.  Also, the text states that the co-simulation under-predicted cooling by 11.1\%, which is not what is shown in the bar graph.
-\begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
+\textcolor{red}{Update with strengths and weaknesses in the discussion}
 \end{solution}
 
 \question 
 31. p. 16. The first and last references, by Miller et al. and Zhang et al., lack volume and page numbers.  Throughout the reference section, the authors should consider consistency in use of initials versus given names.   
 \begin{solution}
-% \textcolor{red}{Show a detailed example of discord inspection in the UWC case study -- in the discussion section}
+\textcolor{red}{Update references}
 \end{solution}
 
 \pagebreak
@@ -246,12 +239,14 @@ Thank you for taking time to perform this review and for the in-depth comments r
 \question 
 (1) At the top of page 2, the paper describes advantages of EnergyPlus. However, it is not clear why this simulation engine is used when several others could perform the presented analyses. It is important to know what technical aspects of the co-simulation procedure specifically drove the authors to use EnergyPlus. 
 \begin{solution}
+\textcolor{red}{Update references}
 
 \end{solution}
 
 \question 
 (2) The actual co-simulation, which is the main contribution of this study is not well discussed. Specifically, the paper needs to describe: (a) frequency of data exchanges, (b) whether any data averaging took place, (c) whether the numerical scheme is stable and grid independent, (d) what is the time step for each engine?, (e) what is the simulation time?, (f) are these annual, monthly, or daily simulations?, (g) what convergence criterion was used? 
 \begin{solution}
+\textcolor{red}{Daren -- can you take a stab at these?}
 a) \\
 b) \\
 c) \\
@@ -264,24 +259,26 @@ g) \\
 \question 
 (3) Figure 3, Section 2.3, and Figure 4 are the same or similar to author’s previous publication. A citation would be sufficient. 
 \begin{solution}
-
+We chose to replicate these figures in this publication to clarify the bigger picture of the scope of the study. We believe these figures help to put the current study in context in a better way.
 \end{solution}
 
 \question 
 (4) In Section 3.3, the paper needs many more details on the calibration process, including the specification of all calibration steps undertaken, rather than just cursory listing some of the steps. 
 \begin{solution}
-
+\textcolor{red}{Explain the calibration process in much more detail}
 \end{solution}
 
 \question 
 (5) Please, discuss results in Figure 10. What are the numerical or physical reasons for the “solo” case to underperform? 
 \begin{solution}
+\textcolor{red}{Why are there differences?}
 
 \end{solution}
 
 \question 
 (6) The conclusions need content on co-simulation execution challenges and how they were overcome during the course of that this study.
 \begin{solution}
+\textcolor{red}{Strenghts and weaknesses and advantages/disadvantages in the}
 
 \end{solution}
 \end{questions}
