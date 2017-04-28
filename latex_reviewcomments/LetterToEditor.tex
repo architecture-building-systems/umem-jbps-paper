@@ -1,0 +1,72 @@
+
+% \documentclass[sigleft]{letter}
+% \usepackage{hyperref}
+% \signature{Clayton Miller}
+% \address{John-von-Neumann-weg 9 \\ Building HPZ \\ Z\"urich CH-8093}
+% \begin{document}
+
+
+% \begin{letter}{Editor-in-Chief \\ Journal of Automation in Construction \\ Glenn L. Martin Hall 1188
+% \\ University of Maryland \\ College Park, MD 20742, U.S.A}
+% \opening{Dear Dr. Skibniewski:}
+
+% Please find our responses to the 26 questions and comments made by the 3 referees. Overall we believe that we have fully addressed each issue individually in a means that hopefully satisfies the requirements of the journal. 
+
+% Each reviewers general comments were responded to and their individual questions and comments were addressed in detail in this document as well as a two revised manuscript documents: one in which the original manuscript is marked up with the changes and one that is a final draft version with all changes and additions.
+
+
+% \closing{Best Regards,}
+
+% % \ps
+
+% % P.S. You can find the full text of GFDL license at
+% % \url{http://www.gnu.org/copyleft/fdl.html}.
+
+% % \encl{Copyright permission form}
+
+% \end{letter}
+% \end{document}
+
+% Template from: http://tex.stackexchange.com/questions/13167/positioning-signature-on-left-in-letter?rq=1
+
+\documentclass[11pt,stdletter,sigleft]{newlfm}
+\usepackage{charter}
+
+\widowpenalty=1000
+\clubpenalty=1000
+
+\newlfmP{headermarginskip=15pt}
+\newlfmP{sigsize=25pt}
+\newlfmP{dateskipafter=25pt}
+\newlfmP{addrfromphone}
+\newlfmP{addrfromemail}
+\PhrPhone{Phone}
+\PhrEmail{Email}
+
+
+\namefrom{Clayton Miller \\ ITA Doctorate Fellow}
+
+\addrfrom{John-von-Neumann-weg 9 \\ Building HPZ \\ Z\"urich CH-8093}
+\phonefrom{+41 78 971 72 50}
+\emailfrom{miller.clayton@arch.ethz.ch}
+
+\addrto{Ian Beausoleil-Morrison \\
+Jan Hensen\\
+Co-Editors\\
+Journal of Building Performance Simulation\\}
+% \\ University of Maryland \\ College Park, MD 20742, U.S.A}
+\begin{document}
+
+\opening{Dear Dr. Beausoleil-Morrison and Dr. Hensen:}
+\closeline{Kind Regards,}
+
+\begin{document}
+\begin{newlfm}
+Please find our responses to the X questions and comments made by the referees. Overall, we believe that we have fully addressed each issue individually in a way that satisfies the requirements of the journal review process. 
+
+Each reviewer's general comments were responded to and their individual questions and comments were addressed in detail in this document. The responses are shaded blue following each reviewer's comments and questions. Included also in this submission is the revised manuscript document that is a final draft version with all changes and additions incorporated.
+
+Please contact me with any further comments or concerns regarding this resubmission.
+
+\end{newlfm}
+\end{document}
