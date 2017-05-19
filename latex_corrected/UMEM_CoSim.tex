@@ -386,12 +386,12 @@ speed and direction, and direct and diffuse solar radiation. These variables
 overwrite the input weather variables that EnergyPlus obtains from its weather
 file input. CitySim is designed to account for physical phenomenon inherent to
 urban environments that are often neglected in building-scale simulation
-environments \citep{Robinson:2004cr,Robinson:2009tm}. Long wave radiation
+environments \citep{Robinson:2004cr,Robinson:2009tm}. CitySim can be connected to a simplified micro-climate airflow model that can 
+predict local climatic conditions around each building INSERT REFERENCES FROM JEROME - IBPSA CISBAT. Long wave radiation
 exchange between the simulated building and its surroundings is sent to
 EnergyPlus; this process is described in detail in Section \ref{lwradiation}.
-Finally, CitySim shares its calculated occupancy schedules as it uses a more
-robust model of occupants behavior
-\citep{Haldi:2011dr}.
+Finally, CitySim shares its calculated occupancy schedules as it can use a deterministic 
+or stochastic occupant behavior model, whereas EnergyPlus models are solely a deterministic models \citep{Haldi:2011dr}.
 
 % \noteDT{s/climactic/climatic/}
 % \noteDT{this sentence, man. i can't even}
@@ -471,7 +471,8 @@ of radiation gain from the ground, sky, and air as seen in Equation
 \ref{EPlus_LWR_Ext} and Figure \ref{combinedLWR}a \citep{doe2010energyplus}.
 The radiant heat transfer coefficient for each of these environmental
 variables is calculated according to Equation \ref{EPlus_h} with $\sigma$ as
-the Stefan-Boltzmann constant and $\epsilon$ as the emissivity. A major
+the Stefan-Boltzmann constant, $\epsilon$ as the emissivity and $F_{variable}$ being the
+view factor to the variable that can be sky, grd (ground) or air. A major
 assumption of this approach is that the modeled building's surfaces and those
 of adjacent buildings are at a uniform temperature and the LWR radiation
 exchange is negligible; a situation that is an oversimplification in an urban
@@ -480,7 +481,7 @@ scale domain \citep{Evins:2014cf}.
 Q_{LWR,EnergyPlus} = h_{r,grd}(T_{surf}-T_{grd}) + h_{r,sky}(T_{surf}-T_{sky}) + h_{r,air}(T_{surf}-T_{air})
 \end{equation}
 \begin{equation} \label{EPlus_h} 
-h_{r,variable} = \frac{\epsilon\sigma(T^{4}_{surf}-T^{4}_{variable})}{T_{surf}-T_{variable}}
+h_{r,variable} = \frac{\epsilon\sigma F_{variable}(T^{4}_{surf}-T^{4}_{variable})}{T_{surf}-T_{variable}}
 \end{equation}
 
 In comparison, CitySim calculates LWR exchange by calculating an aggregated
