@@ -9,7 +9,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage{float}
 \usepackage{lineno}
-\usepackage{tikz}
 \RequirePackage{fix-cm}
 
 
@@ -363,6 +362,12 @@ and the weather file to be used as well as a DLL file implementing the
 Functional Mock-up Interface that can load the IDF file, locate EnergyPlus and
 run the simulation.
 
+The number of timesteps per hour for both CitySim and EnergyPlus is set to one per hour. 
+The frequency of data exchanges is set to once per timestep. No data averaging over time 
+is performed. Data exported from one simulation engine overwrites the corresponding data
+in the other simulation engine at each timestep. Each simulation is performed for a whole 
+year.
+
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.7]{figures/UMEM_FMU_Overview}
@@ -683,7 +688,10 @@ scenarios.
 
 \subsection{EnergyPlus co-simulation results}
 After calibration, a comparison of co-simulation and solo EnergyPlus
-simulations is made. For cooling, a discrepancy can be seen between co-
+simulations is made. Simulation time for the solo EnergyPlus simulation was 1 minute and 49 seconds 
+compared to 28 minutes and 10 seconds for the co-simulation. 
+
+For cooling, a discrepancy can be seen between co-
 simulation and solo EnergyPlus. Co-simulation decreases the predicted cooling energy by 15.5\%, as seen in Figure
 \ref{fig:hpi_energypluscooling}. Figure \ref{fig:hpi_energyplusheating}
 illustrates the difference in predicted heating energy consumption across the
