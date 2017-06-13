@@ -27,7 +27,7 @@
 \subtitle{Paper Title: Urban and building multiscale co-simulation: case study implementations on two university campuses 
 }
 % \email{miller.clayton@arch.ethz.ch}
-\author{Clayton Miller, Daren Thomas, J\'er\^ome K\"ampf, Arno Schlueter}
+% \author{Clayton Miller, Daren Thomas, J\'er\^ome K\"ampf, Arno Schlueter}
 
 % \subtitle{ETH Z\"urich, Institute of Technology in Architecture (ITA), Architecture and Sustainable Building Technologies (SuAT)}
 % \subtitle{*Corresponding author: Phone: +1-402-403-0090, miller.clayton@arch.ethz.ch}
@@ -36,11 +36,6 @@
 
 
 \maketitle
-
-
-% \textcolor{red}{Red text is internal notes of things to be done}
-
-% Black text shaded in blue is the formal responses to the reviewers
 
 \section{Review 1}
 
@@ -59,19 +54,15 @@ Thank you for the comments on the importance and value of the paper and we welco
 
 \question 1. p. 1.  Abstract.  The abstract quantifies percentage “impacts” of co-simulation of heating and cooling consumption but does not establish a reference: percentage change relative to what base case?  The abstract promises a discussion of “strengths and weaknesses of the developed process” but the paper does not include a discussion section and the conclusion does not summarize strengths and weaknesses. 
 \begin{solution}
-\textcolor{red}{Finish discussion section}
-
 The abstract has been updated to reflect that the baseline of these comparison metrics are the EnergyPlus solo simulations of each of the engines.
 
 A discussion section has been added to address the strengths and weaknesses mentioned in the abstract -- advantages are related to the enhancement of each of the 
 engines and disadvantages related to the increase in computing power needed to undertake the process.
-
-% \emph{The majority of these changes can be found in lines X-X.}
 \end{solution}
 
 \question  2. p. 1. Introduction. Lines 3-5 state that “2.5 billion people are expected to join cities throughout the world.” What is the associated time frame – i.e., by what year? 
 \begin{solution}
-\textcolor{red}{Confirm the following is true:} The United Nations World Urbanization prospectus projected that figure by 2030 -- this fact has been updated in the introduction
+The United Nations World Urbanization prospectus projected that figure by 2050 -- this fact has been updated in the introduction
 \end{solution}
 
 \question 3. p. 1, line 13. Please consider a lower-case “S” for solver.   
@@ -81,7 +72,7 @@ Lower-case "S" has been used.
 
 \question 4. p. 1, lines 21-23.  The text states that a single equation approximates the total mass flow rate required to meet the sensible and later loads of each building.”  In this reviewer’s experience, there are separate mass-conservation equations for air and water vapor as well as an energy-balance equation.  Perhaps the authors could succinctly amplify their statement. 
 \begin{solution}
-\textcolor{red}{Jerome -- is this statement regarding CitySim correct? If so, how can we justify it with respect to this comment?} 
+This observation is correct -- "The heating, ventilation, and air-conditioning (HVAC) systems are modeled using a single equation set of equations that approximates the total mass flow rate required to meet the sensible and latent loads of each building as a whole.'' is a mis-statement. This sentence has been changed to a ''set of equations''
 \end{solution}
 
 \question 5. p. 2, line 40.  Please replace “phenomenon” with the plural “phenomena.” 
@@ -96,7 +87,6 @@ The reference to the EnergyPlus simulation for this case study was removed.
 
 \question 7. p. 3.  Figure 1 includes acronyms not defined in the text or caption. 
 \begin{solution}
-{red}{Does anyone know what COSMO-CMM, UMC Model, and BIS stand for?} 
 Explanation of the acronyms is now included in the text.
 \end{solution}
 
@@ -117,22 +107,21 @@ Change made to the latter suggestion
 
 \question 11. p. 4, Figure 2. The test explains the paths associated with the dotted vertical lines and solid lines.  Presumably the use of the latter is intended to show the co-simulation path but the use of the dashed line in the related Figure 3 is not clear.  Further, Figure 3 is quite small; at minimum, the CItySIm block with its italicized vertical text, fmilib, could be modestly larger.  
 \begin{solution}
-\textcolor{red}{Daren -- what was our logic behind the dotted lines?}
+It is correct that the dotted line is meant to show the co-simulation path in Figure 2. Therefore the dotted lines have been removed from Figure 3 for consistency sake and the text has been modified to be more readable.
 \end{solution}
 
 \question 12. p. 5, lines 145-154.  The text states that “several key urban-scale weather variables are send to EnergyPlus from CitySim” but does not succinctly state how CItySIm calculates these variables.  The text might indicate why the authors consider the CitySim occupancy model to be more robust.  Finally, as a minor point of English grammar, please consider removing the comma after “urban environments” in line 150 or replacing “that” with “which.” 
 \begin{solution}
-\textcolor{red}{Jerome -- can you explain quickly in the text how CitySim calculated these variables and why its better than using EnergyPlus's weather file inputs?}
+The next now explains how CitySim has simplified micro-climate airflow model that can predict local climatic conditions around each building. It also further describes how CitySim shares its calculated occupancy schedules as it can use a deterministic or stochastic occupant behavior model, whereas EnergyPlus models are solely a deterministic models. Grammar changes have been noted.
 \end{solution}
 
 \question 13. p. 6.  The text on this page (or, apparently, any other) does not refer to Tables 1 and 2. 
 \begin{solution}
-References for Table 1 and 2 are no included in the text pertaining to those variables.
+References for Table 1 and 2 are now included in the text pertaining to those variables.
 \end{solution}
 
 \question 14. p. 7, line 178.  Equation 2 lacks a view factor, as is included in Evins et al., Equation 9 and in the EnergyPlus Engineering Reference. 
 \begin{solution}
-% \textcolor{red}{Jerome and Daren - can you confirm the accuracy of the equations?}
 That is correct -- a view factor has been added to Equation 2. 
 \end{solution}
 
@@ -170,41 +159,40 @@ The first sentence of that paragraph was rewritten to avoid the use of "comared"
 
 \question 21. p. 11, lines 261-262.  The NMBE for heating and cooling are exactly the same and the NMBE for cooling is not in accord with the bar charts in Figure 9. 
 \begin{solution}
+The NMBE for heating is actually 5.02, thus the repetition of the -9.36 value is a type. This has been corrected in the text.
 \end{solution}
 
 \question 22. p. 11, section 3.4.  Please see the following comments for the two associated figures.  In addition, the presentation of results from the study of Miller et al. is not clear.  Does the Miller study compare solo and co-simulation results?  If so, which results are the reference for the percentage changes? Should the reader conclude that the differences between Miller and this study are comparable (which is comforting) or that deviations are significant, in which case they should be explained. 
 \begin{solution}
-\textcolor{red}{Confirm in the Juypter notebook}
+The Miller study does compare solo and co-simulation results, but in an entirely different context. It is difficult to compare the difference between the two sets of simulations as the buildings tested are different, thus, the discrepancies between co-simulation and solo could be wildly different or very similar either one. Due to this, reference to this study and its comparison to the results of the campus co-simulation have been removed.
 \end{solution}
 
 \question 24. p. 12, Figure 11.  The text states Figure 11 shows differences in predicted heating consumption and notes there is a consistent offset across days in January.  Figure 11 shows hourly variations for presumably averaged days and single points for each month; in short, variations across days cannot be discerned.  Are these variations important to the comparison?  The order of the bars matches Figure 10 but disagrees with Figure 9.  The text compares co-simulation with measurement (using the latter as the reference, which seems appropriate) and shows 2\% annual difference but the numbers over the bars appear to compare co-simulation and measurement with solo simulation and show 6.5\% difference.  As in Figure 11, the numbers (not percentages) over the bars are not explained. 
 \begin{solution}
-\textcolor{red}{Update graphics}
+For Figure 11, we believe the variations are important to show at the daily, monthly and annual levels because even if they have small offsets and little variation at those scales, that information itself is insightful. For example in the monthly chart, March and April have a larger offset than Jan and Feb for heating. The order of the bars in all of the charts has been made consistent. The measured data has been made the baseline for the percentages, thus making it more clear how the solo and co-simulation perform as compared to the measured data.
 \end{solution}
 
 \question 25. p. 12, section 3.5.  The text should include a reference to the Minergie standard and the caption or image in Figure 12 should identify the STCC building. 
 \begin{solution}
-\textcolor{red}{Add Minergie as a reference}
+Minergie Standard added.
 \end{solution}
 
 \question 
 26. p. 13, line 308.  Please explain SIA and/or provide an appropriate reference.   
 \begin{solution}
-\textcolor{red}{Add SIA and explain}
+The term SIA was replaced with local energy code standard.
 \end{solution}
 
 \question 
 27. p. 13, lines 310-313.  The text states that the CItySIm model was created from a DXF file from EnergyPlus.  Was this export used solely for the STCC building or was the remainder of the Quartier Nord as shown in Figure 13 designed in Open Studio? 
 \begin{solution}
 No, the export from EnergyPlus included both buildings -- this fact has been clarified in the text.
-
-% \textcolor{red}{Jerome -- any feedback on this?}
 \end{solution}
 
 \question 
 28. P. 13, lines 316-322.  The reference in the text for percentage changes is the EnergyPlus simulation but Figures 14 and 15 place the percentages (with opposite sign) about the solo simulations.  The text states that discrepancies between solo and co-simulations are due to differences in calculation of heating and cooling loads.  Please elaborate. 
 \begin{solution}
-\textcolor{red}{Confirm numbers in graphics}
+An explation of how the different engines calculate heating and cooling loads was added.
 \end{solution}
 
 \question 
@@ -217,13 +205,13 @@ It is not the 'Quartier Nord Building' that is being simulated -- it is the STCC
 \question 
 30. p. 15.  Conclusion.  There is no summary of strengths and weakness of the process presented in the paper and the future work is limited only to more practical implementation.  Is there nothing to improve? 
 \begin{solution}
-\textcolor{red}{Update with strengths and weaknesses in the discussion}
+A discussion section was added with advantages and disadvantages as well as future research directions.
 \end{solution}
 
 \question 
 31. p. 16. The first and last references, by Miller et al. and Zhang et al., lack volume and page numbers.  Throughout the reference section, the authors should consider consistency in use of initials versus given names.   
 \begin{solution}
-\textcolor{red}{Update references}
+References are updated based on the feedback.
 \end{solution}
 
 \pagebreak
@@ -243,21 +231,13 @@ Thank you for taking time to perform this review and for the in-depth comments r
 \question 
 (1) At the top of page 2, the paper describes advantages of EnergyPlus. However, it is not clear why this simulation engine is used when several others could perform the presented analyses. It is important to know what technical aspects of the co-simulation procedure specifically drove the authors to use EnergyPlus. 
 \begin{solution}
-\textcolor{red}{Update references}
-
+It wasn't necessarily the technical aspects of EnergyPlus that were the basis for choosing it in this study. The more relevant factor for us was familiarity and knowledge of using the engine and its ability to use FMI to interface with another program. Content has been added to emphasize these points.
 \end{solution}
 
 \question 
 (2) The actual co-simulation, which is the main contribution of this study is not well discussed. Specifically, the paper needs to describe: (a) frequency of data exchanges, (b) whether any data averaging took place, (c) whether the numerical scheme is stable and grid independent, (d) what is the time step for each engine?, (e) what is the simulation time?, (f) are these annual, monthly, or daily simulations?, (g) what convergence criterion was used? 
 \begin{solution}
-\textcolor{red}{Daren -- can you take a stab at these?}
-a) \\
-b) \\
-c) \\
-d) \\
-e) \\
-f) \\
-g) \\
+Content was added in this section which touches upon each of these points.
 \end{solution}
 
 \question 
@@ -269,21 +249,19 @@ We chose to replicate these figures in this publication to clarify the bigger pi
 \question 
 (4) In Section 3.3, the paper needs many more details on the calibration process, including the specification of all calibration steps undertaken, rather than just cursory listing some of the steps. 
 \begin{solution}
-\textcolor{red}{Explain the calibration process in much more detail}
+A total of 37 calibration steps were undertaken to tune the model -- it would be extremely tedious and lengthy to specify each of these steps and their modivations in the calibration process, especially since the goal is simplified calibration. Content has been added about the number of iteration steps and their impact on the calibration process.
 \end{solution}
 
 \question 
 (5) Please, discuss results in Figure 10. What are the numerical or physical reasons for the “solo” case to underperform? 
 \begin{solution}
-\textcolor{red}{Why are there differences?}
-
+Figure 10-17 have content added to help further explain discrepancies and significant content has been added in the new Discussion section into why these discrepancies are relevant.
 \end{solution}
 
 \question 
 (6) The conclusions need content on co-simulation execution challenges and how they were overcome during the course of that this study.
 \begin{solution}
-\textcolor{red}{Strenghts and weaknesses and advantages/disadvantages in the}
-
+The new Discussion section now also details the challenges, advantages and disadvantages of the study.
 \end{solution}
 \end{questions}
 \end{document}
