@@ -1,0 +1,176 @@
+Reviewer 1
+
+Response to general comments: Thank you for the comments on the importance and value of the paper and we welcome the comments and feedback to be covered in this 
+review.
+
+ 1. p. 1.  Abstract.  The abstract quantifies percentage “impacts” of co-simulation of heating and cooling consumption but does not establish a reference: percentage change relative to what base case?  The abstract promises a discussion of “strengths and weaknesses of the developed process” but the paper does not include a discussion section and the conclusion does not summarize strengths and weaknesses. 
+
+The abstract has been updated to reflect that the baseline of these comparison metrics are the EnergyPlus solo simulations of each of the engines.
+
+A discussion section has been added to address the strengths and weaknesses mentioned in the abstract -- advantages are related to the enhancement of each of the 
+engines and disadvantages related to the increase in computing power needed to undertake the process.
+
+  2. p. 1. Introduction. Lines 3-5 state that “2.5 billion people are expected to join cities throughout the world.” What is the associated time frame – i.e., by what year? 
+
+The United Nations World Urbanization prospectus projected that figure by 2050 -- this fact has been updated in the introduction
+
+ 3. p. 1, line 13. Please consider a lower-case “S” for solver.   
+
+Lower-case "S" has been used.
+
+ 4. p. 1, lines 21-23.  The text states that a single equation approximates the total mass flow rate required to meet the sensible and later loads of each building.”  In this reviewer’s experience, there are separate mass-conservation equations for air and water vapor as well as an energy-balance equation.  Perhaps the authors could succinctly amplify their statement. 
+
+This observation is correct -- "The heating, ventilation, and air-conditioning (HVAC) systems are modeled using a single equation set of equations that approximates the total mass flow rate required to meet the sensible and latent loads of each building as a whole.'' is a mis-statement. This sentence has been changed to a ''set of equations''
+
+ 5. p. 2, line 40.  Please replace “phenomenon” with the plural “phenomena.” 
+
+Correction made.
+
+ 6. p. 2, line 60.  The text appears to limit the second case study to CitySim simulation output but the abstract and, later, line 224, include analysis of EnergyPlus output. 
+
+The reference to the EnergyPlus simulation for this case study was removed.
+
+ 7. p. 3.  Figure 1 includes acronyms not defined in the text or caption. 
+
+Explanation of the acronyms is now included in the text.
+
+ 8. p. 3, lines 62-68.  For grammatical consistency, the achievements should all start with verbs (automate, co-simulate, implement) or nouns (automation, co-simulation, implementation).  The third achievement should specify what simulation model is being calibrated. 
+
+Points were revised to all be verbs and the second scenario was indicated as the model being calibrated.
+
+ 9. p. 3, lines 88-89.  Please note that Bueno et al. 2013 generated urban weather with a nodal model and did not directly couple EnergyPlus to a nodal representation of the urban canopy layer.  The accuracy of this approach depends on how faithfully users and the model represent the buildings that will later be simulated in detail in EnergyPlus with the modified weather file. 
+
+It was noted that this study doesn't directly couple the simulation engines, but only connects them through a modified weather file.
+
+ 10. p. 4, line 97.  Please consider “earliest design possible and it can be used…” or “earliest design possible that can be used….” 
+
+Change made to the latter suggestion
+
+ 11. p. 4, Figure 2. The test explains the paths associated with the dotted vertical lines and solid lines.  Presumably the use of the latter is intended to show the co-simulation path but the use of the dashed line in the related Figure 3 is not clear.  Further, Figure 3 is quite small; at minimum, the CItySIm block with its italicized vertical text, fmilib, could be modestly larger.  
+
+It is correct that the dotted line is meant to show the co-simulation path in Figure 2. Therefore the dotted lines have been removed from Figure 3 for consistency sake and the text has been modified to be more readable.
+
+ 12. p. 5, lines 145-154.  The text states that “several key urban-scale weather variables are send to EnergyPlus from CitySim” but does not succinctly state how CItySIm calculates these variables.  The text might indicate why the authors consider the CitySim occupancy model to be more robust.  Finally, as a minor point of English grammar, please consider removing the comma after “urban environments” in line 150 or replacing “that” with “which.” 
+
+The next now explains how CitySim has simplified micro-climate airflow model that can predict local climatic conditions around each building. It also further describes how CitySim shares its calculated occupancy schedules as it can use a deterministic or stochastic occupant behavior model, whereas EnergyPlus models are solely a deterministic models. Grammar changes have been noted.
+
+ 13. p. 6.  The text on this page (or, apparently, any other) does not refer to Tables 1 and 2. 
+
+References for Table 1 and 2 are now included in the text pertaining to those variables.
+
+ 14. p. 7, line 178.  Equation 2 lacks a view factor, as is included in Evins et al., Equation 9 and in the EnergyPlus Engineering Reference. 
+
+That is correct -- a view factor has been added to Equation 2. 
+
+ 15. p. 7, lines 195-196.  The sentence beginning with “An automated workflow” lacks a verb.  Please consider replacing “to tie” with “ties.” 
+
+Correction made.
+
+ 16. p. 9, line 215.  Please consider replacing “compare” with “quantify,” given that the sentence does not establish the basis of comparison (compare what with what)). 
+
+Correction made.
+
+ 17. p. 10. Section 3.2.  The text states that the campus “geometry was converted into an EnergyPlus input file as seen in Figure 7.  However, this figure does not clearly indicate what geometry was included in the IDF and the caption states that the HPI building was modeled in Open Studio.   
+
+The caption for Figure 7 has been updated to clarify the situation in which the HPI building was extracted from the CiytSim model, however it is illustrated using
+OpenStudio due to that software's rendering capabilities. The caption also clearly states which building is being simulationed.
+
+ 18. p. 10, lines 246-248.  Please consider replacing “are screened” with “were screened” and removing the hyphen after plug. 
+
+Correction made.
+
+ 19. p. 10, section 3.3.  Either the text (lines 245-252) or the caption for Figure 8 should say a bit more (a sentence would be adequate) about the clustering process.  For example, the caption could note that the rows for each month refer to days of the week (if this is true) and could name (describe) each of the clusters (i.e., clusters that nominally align with weekdays, Saturdays and Sundays/school holidays). 
+
+The caption for Figure 8 was revised significantly to describe what the reader is seeing in the typical average profiles on the left and the days corresponding with
+each cluster on the right. Text was added in the preceding paragraphs that briefly describe the significance of each of the clusters.
+
+ 20. p. 10., lines 253-259.  Please rewrite the sentence to avoid “compared … to create… scenario for comparison.” What is meant by “measurements were deemed most accurate during the appropriate seasons?”
+
+The first sentence of that paragraph was rewritten to avoid the use of "comared" and "create a scenario for comparison". The sentence pertaining to the seasonal nature of the data analysis was removed as it didn't add any information to the fact that only heating and cooling seasonal data was used for each calibration.
+
+ 21. p. 11, lines 261-262.  The NMBE for heating and cooling are exactly the same and the NMBE for cooling is not in accord with the bar charts in Figure 9. 
+
+The NMBE for heating is actually 5.02, thus the repetition of the -9.36 value is a type. This has been corrected in the text.
+
+ 22. p. 11, section 3.4.  Please see the following comments for the two associated figures.  In addition, the presentation of results from the study of Miller et al. is not clear.  Does the Miller study compare solo and co-simulation results?  If so, which results are the reference for the percentage changes? Should the reader conclude that the differences between Miller and this study are comparable (which is comforting) or that deviations are significant, in which case they should be explained. 
+
+The Miller study does compare solo and co-simulation results, but in an entirely different context. It is difficult to compare the difference between the two sets of simulations as the buildings tested are different, thus, the discrepancies between co-simulation and solo could be wildly different or very similar either one. Due to this, reference to this study and its comparison to the results of the campus co-simulation have been removed.
+
+ 24. p. 12, Figure 11.  The text states Figure 11 shows differences in predicted heating consumption and notes there is a consistent offset across days in January.  Figure 11 shows hourly variations for presumably averaged days and single points for each month; in short, variations across days cannot be discerned.  Are these variations important to the comparison?  The order of the bars matches Figure 10 but disagrees with Figure 9.  The text compares co-simulation with measurement (using the latter as the reference, which seems appropriate) and shows 2\% annual difference but the numbers over the bars appear to compare co-simulation and measurement with solo simulation and show 6.5\% difference.  As in Figure 11, the numbers (not percentages) over the bars are not explained. 
+
+For Figure 11, we believe the variations are important to show at the daily, monthly and annual levels because even if they have small offsets and little variation at those scales, that information itself is insightful. For example in the monthly chart, March and April have a larger offset than Jan and Feb for heating. The order of the bars in all of the charts has been made consistent. The measured data has been made the baseline for the percentages, thus making it more clear how the solo and co-simulation perform as compared to the measured data.
+
+ 25. p. 12, section 3.5.  The text should include a reference to the Minergie standard and the caption or image in Figure 12 should identify the STCC building. 
+
+Minergie Standard added.
+
+ 
+26. p. 13, line 308.  Please explain SIA and/or provide an appropriate reference.   
+
+The term SIA was replaced with local energy code standard.
+
+ 
+27. p. 13, lines 310-313.  The text states that the CItySIm model was created from a DXF file from EnergyPlus.  Was this export used solely for the STCC building or was the remainder of the Quartier Nord as shown in Figure 13 designed in Open Studio? 
+
+No, the export from EnergyPlus included both buildings -- this fact has been clarified in the text.
+
+ 
+28. P. 13, lines 316-322.  The reference in the text for percentage changes is the EnergyPlus simulation but Figures 14 and 15 place the percentages (with opposite sign) about the solo simulations.  The text states that discrepancies between solo and co-simulations are due to differences in calculation of heating and cooling loads.  Please elaborate. 
+
+An explation of how the different engines calculate heating and cooling loads was added.
+
+ 
+29. P. 14, section 3.8.  The text states that the Quartier Nord building was also simulated. This is a bit confusing because Quartier Nord previously referred to the complex.  Does the building refer to the building on the right in Figures 12 and 13 – i.e., everything except the STCC?  The text also states that differences between solo and co-simulations are small because the surroundings are sparse.  If this is the case, would one expect better agreement between solo and co-simulations for the neighboring STCC?  Also, please consider replacing “due to” with “because” in line 327. 
+
+% \textcolor{red}{Jerome -- can you clarify this?}
+It is not the 'Quartier Nord Building' that is being simulated -- it is the STCC. The text has been fixed to clarify this confusion.
+
+ 
+30. p. 15.  Conclusion.  There is no summary of strengths and weakness of the process presented in the paper and the future work is limited only to more practical implementation.  Is there nothing to improve? 
+
+A discussion section was added with advantages and disadvantages as well as future research directions.
+
+ 
+31. p. 16. The first and last references, by Miller et al. and Zhang et al., lack volume and page numbers.  Throughout the reference section, the authors should consider consistency in use of initials versus given names.   
+
+References are updated based on the feedback.
+
+
+Reviewer 2:
+This is a nice study in a series of studies that use institutional buildings for demonstration of different co-simulation strategies for modeling of urban environments and building energy consumption. Here are several review comments that are mostly focused on the fact that actual execution of co-simulation was not discussed in details; the study mostly presented the co-simulation workflow and results. 
+
+
+Response to general comments:
+
+Thank you for taking time to perform this review and for the in-depth comments related to discussing the execution of the actual co-simulation.
+
+
+ 
+(1) At the top of page 2, the paper describes advantages of EnergyPlus. However, it is not clear why this simulation engine is used when several others could perform the presented analyses. It is important to know what technical aspects of the co-simulation procedure specifically drove the authors to use EnergyPlus. 
+
+It wasn't necessarily the technical aspects of EnergyPlus that were the basis for choosing it in this study. The more relevant factor for us was familiarity and knowledge of using the engine and its ability to use FMI to interface with another program. Content has been added to emphasize these points.
+
+ 
+(2) The actual co-simulation, which is the main contribution of this study is not well discussed. Specifically, the paper needs to describe: (a) frequency of data exchanges, (b) whether any data averaging took place, (c) whether the numerical scheme is stable and grid independent, (d) what is the time step for each engine?, (e) what is the simulation time?, (f) are these annual, monthly, or daily simulations?, (g) what convergence criterion was used? 
+
+Content was added in this section which touches upon each of these points.
+
+ 
+(3) Figure 3, Section 2.3, and Figure 4 are the same or similar to author’s previous publication. A citation would be sufficient. 
+
+We chose to replicate these figures in this publication to clarify the bigger picture of the scope of the study. We believe these figures help to put the current study in context in a better way.
+
+ 
+(4) In Section 3.3, the paper needs many more details on the calibration process, including the specification of all calibration steps undertaken, rather than just cursory listing some of the steps. 
+
+A total of 37 calibration steps were undertaken to tune the model -- it would be extremely tedious and lengthy to specify each of these steps and their modivations in the calibration process, especially since the goal is simplified calibration. Content has been added about the number of iteration steps and their impact on the calibration process.
+
+ 
+(5) Please, discuss results in Figure 10. What are the numerical or physical reasons for the “solo” case to underperform? 
+
+Figure 10-17 have content added to help further explain discrepancies and significant content has been added in the new Discussion section into why these discrepancies are relevant.
+
+ 
+(6) The conclusions need content on co-simulation execution challenges and how they were overcome during the course of that this study.
+
+The new Discussion section now also details the challenges, advantages and disadvantages of the study.

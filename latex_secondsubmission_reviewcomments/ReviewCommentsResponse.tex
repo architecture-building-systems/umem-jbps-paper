@@ -1,0 +1,125 @@
+\documentclass[answers,12pt]{exam}
+\usepackage{xcolor}
+\definecolor{SolutionColor}{rgb}{0.1,0.3,1}
+\usepackage{lipsum}
+
+\renewcommand{\thequestion}{\alph{question} }
+\renewcommand\questionlabel{\llap{\thequestion)}}
+
+%\pointsinrightmargin
+%\boxedpoints
+\unframedsolutions
+\shadedsolutions
+\definecolor{SolutionColor}{rgb}{0.9,0.9,1}
+\renewcommand{\solutiontitle}{}
+
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
+% \setlength{\droptitle}{-10em}   % This is your set screw
+
+\title{Review Comment Responses to Journal of Building Performance Simulation Second Submission}
+\subtitle{Paper Title: Urban and building multiscale co-simulation: case study implementations on two university campuses 
+}
+% \email{clayton@nus.edu.sg}
+% \author{Clayton Miller, Daren Thomas, J\'er\^ome K\"ampf, Arno Schlueter}
+
+% \subtitle{ETH Z\"urich, Institute of Technology in Architecture (ITA), Architecture and Sustainable Building Technologies (SuAT)}
+% \subtitle{*Corresponding author: Phone: +1-402-403-0090, miller.clayton@arch.ethz.ch}
+
+\begin{document}
+
+
+\maketitle
+
+\section{Review Comments}
+\begin{questions}
+
+\question p. 13, line 69. “we week to co-simulate” is incorrect. Please consider “we co-simulate.”
+\begin{solution}
+Fixed -- thanks for catching that!
+\end{solution}
+
+\question  p. 12, lines 90-93. The correction the authors made in response to a reviewer comment
+needs further modification. My comment was “Please note that Bueno et al. 2013 generated urban weather with a nodal model and did not directly couple EnergyPlus to a nodal representation of the urban canopy layer. The accuracy of this approach depends on how faithfully users and the model represent the buildings that will later be simulated in detail in EnergyPlus with the modified weather file.” This applies to Bueno et al. 2013 and NOT Bueno et al. 2011, in which TEB and EnergyPlus are coupled. In short, one of Bueno’s papers employed coupling and the other did not; the authors should distinguish them or refer to the single method of their choice.
+\begin{solution}
+Very good point - apologies for misunderstanding that point. The Bueno 2013 paper has been removed as it does not utilize coupling.
+\end{solution}
+
+\question p. 14, line 149. Please delete the redundant “per hour” after “timesteps.”
+\begin{solution}
+Fixed.
+\end{solution}
+
+\question P. 15, lines 176-177. In two places, the “l” in “long-wave” should be capitalized. 
+\begin{solution}
+Good catch - good example of why "find and replace" needs to be performed before final proofreading.
+\end{solution}
+
+\question P. 16, line 189. Please hyphenate “urban scale.”
+\begin{solution}
+This instance has been hyphenated as well as several others in the manuscript
+\end{solution}
+
+\question p. 17, line 217. Please replace “simulation results of the co-simulation” with “results of
+the co-simulation.”
+\begin{solution}
+Fixed.
+\end{solution}
+
+\question p. 18, line 221. Please replace “actualized” with “actual.” In line 224, please replace
+“measured and simulated” with “measurement and simulation.”
+\begin{solution}
+Fixed.
+\end{solution}
+
+\question p. 20, line 283. Please replace “co- simulation” with “co-simulation” by removing the
+extraneous space after the hyphen.
+\begin{solution}
+Fixed.
+\end{solution}
+
+\question p. 21, Figures 10 and 11. The authors have usefully improved these figures. Is it
+necessary to retain the absolute change in energy consumption, to four significant figures, as well as the percentage change? This reviewer suggests that the absolute change be removed because it suggests more precision that the process merits and because the percentages are more meaningful.
+\begin{solution}
+We agree with this and have changed to figures to only represent the percentage change.
+\end{solution}
+
+\question p. 21, section 3.5. The new reference to the Minergie standard should be placed after “Minergie building” or at the end of that sentence, and not at the end of the paragraph.
+\begin{solution}
+Fixed.
+\end{solution}
+
+\question p. 19, line 260. Online sources use “plug load” rather than plug-load.” Either is better than “plug- load” (with both a hyphen and a space), as used in the text.
+\begin{solution}
+Fixed.
+\end{solution}
+
+\question  p. 24, lines 348-353. The new discussion section includes two redundancies. In the first sentence, please consider deleting “on two real-world case studies,” given the reference to case studies at the beginning of the sentence. The third sentence could be ended with “...unique to this case study....”
+\begin{solution}
+The first redundancy was fixed. For the second one, we removed "in this particular instance", but kept the "unique to this case study" were it is
+\end{solution}
+
+\question  p. 25, lines 368-375. In line 372, please hyphenate “case-study” (when used as a modifier for campuses). In line 373, please remove the space after the hyphen in “co- simulation.”
+\begin{solution}
+Fixed
+\end{solution}
+
+\question   p. 25, lines 376-379. The text identifies “practical implementation of retrofit scenarios” and “retrofit analysis” as future applications. How do these applications differ?
+\begin{solution}
+We removed the second reference to retrofits and, instead, changed it to refer to general "systems analysis"
+\end{solution}
+
+\question   p. 26, line 416. Only the K in KAEMPF should be capitalized.
+\begin{solution}
+Fixed.
+\end{solution}
+
+
+\end{questions}
+\end{document}
